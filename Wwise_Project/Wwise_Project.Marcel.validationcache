@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="110">
 	<ValidationCacheItem File="C:\Users\Marcel\Documents\GitHub\Game_Engine\Wwise-Adventure-Game\Wwise_Project\Wwise_Project.wproj" DateLow="1716391097" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\Marcel\Documents\GitHub\Game_Engine\Wwise-Adventure-Game\Wwise_Project\Wwise_Project.Marcel.wsettings" DateLow="1716391172" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Marcel\Documents\GitHub\Game_Engine\Wwise-Adventure-Game\Wwise_Project\Virtual Acoustics\Factory Acoustic Textures.wwu" DateLow="1716390460" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Marcel\Documents\GitHub\Game_Engine\Wwise-Adventure-Game\Wwise_Project\Virtual Acoustics\Default Work Unit.wwu" DateLow="1716391097" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\Marcel\Documents\GitHub\Game_Engine\Wwise-Adventure-Game\Wwise_Project\Triggers\Default Work Unit.wwu" DateLow="1716391097" DateHigh="0"/>

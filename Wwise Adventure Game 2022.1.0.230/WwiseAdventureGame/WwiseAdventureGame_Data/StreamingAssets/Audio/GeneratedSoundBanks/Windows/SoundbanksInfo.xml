@@ -1,52 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
 	<RootPaths>
-		<ProjectRoot>../../../../../../../../../WwiseProjects/Wag</ProjectRoot>
-		<SourceFilesRoot>../../../../../../../../../WwiseProjects/Wag/.cache/Windows</SourceFilesRoot>
+		<ProjectRoot>../../../../../../../Wwise_Project</ProjectRoot>
+		<SourceFilesRoot>../../../../../../../Wwise_Project/.cache/Windows</SourceFilesRoot>
 		<SoundBanksRoot>.</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>../../../../../../../../../WwiseProjects/Wag/GeneratedSoundBanks/Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>../../../../../../../Wwise_Project/GeneratedSoundBanks/Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="133642231" Type="User" Language="SFX" Hash="{F7D7355C-FA84-83CC-AAEB-254C9C1F3926}">
+		<SoundBank Id="133642231" Type="User" Language="SFX" Hash="{5A182471-6353-CC11-FEC2-93E539B57D58}">
 			<ShortName>General</ShortName>
 			<Path>General.bnk</Path>
 			<Media>
-				<File Id="4309105" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>BAS_Player_Footstep_grass_walk_02.wav</ShortName>
-					<CachePath>SFX/BAS_Player_Footstep_grass_walk_02_10C4C929.wem</CachePath>
-				</File>
-				<File Id="224597915" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>BAS_Player_Footstep_grass_walk_01.wav</ShortName>
-					<CachePath>SFX/BAS_Player_Footstep_grass_walk_01_10C4C929.wem</CachePath>
-				</File>
-				<File Id="377958121" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>BAS_Player_Footstep_grass_walk_06.wav</ShortName>
-					<CachePath>SFX/BAS_Player_Footstep_grass_walk_06_10C4C929.wem</CachePath>
-				</File>
-				<File Id="445536222" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>BAS_Player_Footstep_grass_walk_04.wav</ShortName>
-					<CachePath>SFX/BAS_Player_Footstep_grass_walk_04_10C4C929.wem</CachePath>
-				</File>
-				<File Id="674139540" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>BAS_Player_Footstep_grass_walk_05.wav</ShortName>
-					<CachePath>SFX/BAS_Player_Footstep_grass_walk_05_10C4C929.wem</CachePath>
-				</File>
-				<File Id="946687228" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>BAS_Player_Footstep_grass_walk_03.wav</ShortName>
-					<CachePath>SFX/BAS_Player_Footstep_grass_walk_03_10C4C929.wem</CachePath>
+				<File Id="767388239" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BAS_Player_Footstep_dirt_walk_01.wav</ShortName>
+					<CachePath>SFX/BAS_Player_Footstep_dirt_walk_01_10C4C929.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
 				<Event Id="2453392179" Name="Player_Footstep">
 					<MediaRefs>
-						<MediaRef Id="4309105"/>
-						<MediaRef Id="224597915"/>
-						<MediaRef Id="377958121"/>
-						<MediaRef Id="445536222"/>
-						<MediaRef Id="674139540"/>
-						<MediaRef Id="946687228"/>
+						<MediaRef Id="767388239"/>
 					</MediaRefs>
 				</Event>
 			</Events>
@@ -191,5 +166,5 @@
 			</AcousticTextures>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{9CE5B9E5-DC59-52C7-E8B7-260F6275B2A5}</FileHash>
+	<FileHash>{E51F6B50-66D6-932C-80DC-A0EE77A0A363}</FileHash>
 </SoundBanksInfo>

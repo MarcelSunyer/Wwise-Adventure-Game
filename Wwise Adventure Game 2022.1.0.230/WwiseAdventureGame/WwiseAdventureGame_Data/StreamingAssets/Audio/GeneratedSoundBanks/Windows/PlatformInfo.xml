@@ -2,11 +2,11 @@
 <PlatformInfo>
 	<Platform Name="Windows" BasePlatform="Windows" Generator="2022.1.5.8242"/>
 	<RootPaths>
-		<ProjectRoot>../../../../../../../../../WwiseProjects/Wag</ProjectRoot>
-		<SourceFilesRoot>../../../../../../../../../WwiseProjects/Wag/.cache/Windows</SourceFilesRoot>
+		<ProjectRoot>../../../../../../../Wwise_Project</ProjectRoot>
+		<SourceFilesRoot>../../../../../../../Wwise_Project/.cache/Windows</SourceFilesRoot>
 		<SoundBanksRoot>.</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>../../../../../../../../../WwiseProjects/Wag/GeneratedSoundBanks/Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>../../../../../../../Wwise_Project/GeneratedSoundBanks/Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DefaultAlign>16</DefaultAlign>
 	<Settings>
@@ -28,5 +28,5 @@
 		<PrintObjectGuid>false</PrintObjectGuid>
 		<PrintObjectPath>false</PrintObjectPath>
 	</Settings>
-	<FileHash>{A85FB0E6-9F47-759D-B59E-05BE7016320F}</FileHash>
+	<FileHash>{EAC36D90-BD01-D5ED-EBE0-F422D123ED4D}</FileHash>
 </PlatformInfo>
