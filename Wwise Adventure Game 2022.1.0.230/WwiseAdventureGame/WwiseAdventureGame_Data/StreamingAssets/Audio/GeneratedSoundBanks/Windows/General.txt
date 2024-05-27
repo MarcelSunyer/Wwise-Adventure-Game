@@ -10,6 +10,8 @@ Event	ID	Name			Wwise Object Path	Notes
 	844130829	Quest_CompleteCollection			\Default Work Unit\Ui_Folder\Quest_CompleteCollection	
 	949395292	UI_QuestRoll_Open			\Default Work Unit\Ui_Folder\UI_QuestRoll_Open	
 	1464993479	UI_Menu_Resume			\Default Work Unit\Ui_Folder\UI_Menu_Resume	
+	1532327793	Music_TitleScreen			\Default Work Unit\Music_TitleScreen	
+	1882971781	Music_Credits			\Default Work Unit\Music_Credits	
 	1934835592	Ambient_Waterfall			\Default Work Unit\3D Emitters\Ambient_Waterfall	
 	1999886838	Destruction_Rock_Destroy			\Default Work Unit\Destruction\Destruction_Rock_Destroy	
 	2199611969	UI_Inventory_Open			\Default Work Unit\Ui_Folder\UI_Inventory_Open	
@@ -28,35 +30,59 @@ Event	ID	Name			Wwise Object Path	Notes
 	3474566310	UI_Menu_Select			\Default Work Unit\Ui_Folder\UI_Menu_Select	
 	3664581270	Ambient_Campfire_Play			\Default Work Unit\3D Emitters\Ambient_Campfire_Play	
 	3699139167	UI_QuestRoll_Show			\Default Work Unit\Ui_Folder\UI_QuestRoll_Show	
+	3741135221	Music_Region			\Default Work Unit\Music_Region	
 	3749307760	UI_Inventory_Roll			\Default Work Unit\Ui_Folder\UI_Inventory_Roll	
 	4254124015	Destruction_Container			\Default Work Unit\Destruction\Destruction_Container	
 	4275106484	Ambient_Lava			\Default Work Unit\3D Emitters\Ambient_Lava	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	2106907484	Music_Regions			\Default Work Unit\Music_Regions	
+
+State	ID	Name	State Group			Notes
+	608898761	Dungeon	Music_Regions			
+	748895195	None	Music_Regions			
+	1421251628	Woodlands	Music_Regions			
+	1850388778	Desert	Music_Regions			
+	3132368115	WwizardHouse	Music_Regions			
+	3160623154	Silent	Music_Regions			
+	3424056949	Nowhere	Music_Regions			
+	3945572659	Village	Music_Regions			
+	4122393694	Cave	Music_Regions			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	78587494	BAS_Destroy_Wood_03	C:\Users\cacah\OneDrive\Documentos\GitHub\Wwise-Adventure-Game\Wwise_Project\.cache\Windows\SFX\BAS_Destroy_Wood_03_10C4C929.wem		\Actor-Mixer Hierarchy\Factory Soundseed Air Objects\Destruction\Wood\BAS_Destroy_Wood_03		132284
 	81328814	BAS_WindMillBlade_01	C:\Users\cacah\OneDrive\Documentos\GitHub\Wwise-Adventure-Game\Wwise_Project\.cache\Windows\SFX\BAS_WindMillBlade_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Windmill\BAS_WindMillBlade_01		1622112
 	81864614	Quest_Complete	C:\Users\cacah\OneDrive\Documentos\GitHub\Wwise-Adventure-Game\Wwise_Project\.cache\Windows\SFX\Quest_Complete_10C4C929.wem		\Actor-Mixer Hierarchy\Factory Soundseed Air Objects\Ui\Quest_Complete		377952
+	83372869	Dungeon_120BPM_4_4_L8M_P1M	C:\Users\cacah\OneDrive\Documentos\GitHub\Wwise-Adventure-Game\Wwise_Project\.cache\Windows\SFX\Dungeon_120BPM_4_4_L8M_P1M_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Music_Regions\Dungeon_120BPM_4_4_L8M_P1M		4224160
 	84478941	Quest_CompleteCollection	C:\Users\cacah\OneDrive\Documentos\GitHub\Wwise-Adventure-Game\Wwise_Project\.cache\Windows\SFX\Quest_CompleteCollection_10C4C929.wem		\Actor-Mixer Hierarchy\Factory Soundseed Air Objects\Ui\Quest_CompleteCollection		345696
 	89461406	BAS_Inventory_Open	C:\Users\cacah\OneDrive\Documentos\GitHub\Wwise-Adventure-Game\Wwise_Project\.cache\Windows\SFX\BAS_Inventory_Open_10C4C929.wem		\Actor-Mixer Hierarchy\Factory Soundseed Air Objects\Ui\BAS_Inventory_Open		45400
 	113439921	BAS_Destroy_Wood_02	C:\Users\cacah\OneDrive\Documentos\GitHub\Wwise-Adventure-Game\Wwise_Project\.cache\Windows\SFX\BAS_Destroy_Wood_02_10C4C929.wem		\Actor-Mixer Hierarchy\Factory Soundseed Air Objects\Destruction\Wood\BAS_Destroy_Wood_02		77920
 	114168133	BAS_WaterDrops_05	C:\Users\cacah\OneDrive\Documentos\GitHub\Wwise-Adventure-Game\Wwise_Project\.cache\Windows\SFX\BAS_WaterDrops_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_WaterDrop\BAS_WaterDrops_05		43296
 	131351217	BAS_Inventory_Close	C:\Users\cacah\OneDrive\Documentos\GitHub\Wwise-Adventure-Game\Wwise_Project\.cache\Windows\SFX\BAS_Inventory_Close_10C4C929.wem		\Actor-Mixer Hierarchy\Factory Soundseed Air Objects\Ui\BAS_Inventory_Close		46656
 	136099877	BAS_Button_Over	C:\Users\cacah\OneDrive\Documentos\GitHub\Wwise-Adventure-Game\Wwise_Project\.cache\Windows\SFX\BAS_Button_Over_10C4C929.wem		\Actor-Mixer Hierarchy\Factory Soundseed Air Objects\Ui\BAS_Button_Over		21272
+	231622313	TitleScreen_120BPM_4_4_L41M_P2M	C:\Users\cacah\OneDrive\Documentos\GitHub\Wwise-Adventure-Game\Wwise_Project\.cache\Windows\SFX\TitleScreen_120BPM_4_4_L41M_P2M_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\TitleScreen_120BPM_4_4_L41M_P2M		17664096
+	235526537	Woodlands_Night_120BPM_4_4_L8M_P1M	C:\Users\cacah\OneDrive\Documentos\GitHub\Wwise-Adventure-Game\Wwise_Project\.cache\Windows\SFX\Woodlands_Night_120BPM_4_4_L8M_P1M_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Music_Regions\Woodlands_Night_120BPM_4_4_L8M_P1M		3840160
+	247567948	Credits_120BPM_4_4_L8M_P0	C:\Users\cacah\OneDrive\Documentos\GitHub\Wwise-Adventure-Game\Wwise_Project\.cache\Windows\SFX\Credits_120BPM_4_4_L8M_P0_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Credits_120BPM_4_4_L8M_P0		3840160
 	283221156	Explosion	C:\Users\cacah\OneDrive\Documentos\GitHub\Wwise-Adventure-Game\Wwise_Project\.cache\Windows\SFX\Explosion_10C4C929.wem		\Actor-Mixer Hierarchy\Factory Soundseed Air Objects\Destruction\Vulcano\Explosion		768160
+	344803208	Cave_Silent_WwizardHouse_120BPM_L8M_P0	C:\Users\cacah\OneDrive\Documentos\GitHub\Wwise-Adventure-Game\Wwise_Project\.cache\Windows\SFX\Cave_Silent_WwizardHouse_120BPM_L8M_P0_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Music_Regions\Cave_Silent_WwizardHouse_120BPM_L8M_P0		1728096
 	378372934	BAS_WaterDrops_03	C:\Users\cacah\OneDrive\Documentos\GitHub\Wwise-Adventure-Game\Wwise_Project\.cache\Windows\SFX\BAS_WaterDrops_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_WaterDrop\BAS_WaterDrops_03		51296
 	385628623	BAS_WindMillBlade_03	C:\Users\cacah\OneDrive\Documentos\GitHub\Wwise-Adventure-Game\Wwise_Project\.cache\Windows\SFX\BAS_WindMillBlade_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Windmill\BAS_WindMillBlade_03		352352
 	424892011	BAS_Lava	C:\Users\cacah\OneDrive\Documentos\GitHub\Wwise-Adventure-Game\Wwise_Project\.cache\Windows\SFX\BAS_Lava_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\BAS_Lava		1160564
+	428107694	Woodlands_Day_120BPM_4_4_L8M_P0	C:\Users\cacah\OneDrive\Documentos\GitHub\Wwise-Adventure-Game\Wwise_Project\.cache\Windows\SFX\Woodlands_Day_120BPM_4_4_L8M_P0_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Music_Regions\Woodlands_Day_120BPM_4_4_L8M_P0		3840160
 	434499914	BAS_Destroy_Rock_01	C:\Users\cacah\OneDrive\Documentos\GitHub\Wwise-Adventure-Game\Wwise_Project\.cache\Windows\SFX\BAS_Destroy_Rock_01_10C4C929.wem		\Actor-Mixer Hierarchy\Factory Soundseed Air Objects\Destruction\Rock\BAS_Destroy_Rock_01		105568
 	446773669	BAS_WaterDrops_06	C:\Users\cacah\OneDrive\Documentos\GitHub\Wwise-Adventure-Game\Wwise_Project\.cache\Windows\SFX\BAS_WaterDrops_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_WaterDrop\BAS_WaterDrops_06		77856
 	473603947	BAS_Destroy_Rock_02	C:\Users\cacah\OneDrive\Documentos\GitHub\Wwise-Adventure-Game\Wwise_Project\.cache\Windows\SFX\BAS_Destroy_Rock_02_10C4C929.wem		\Actor-Mixer Hierarchy\Factory Soundseed Air Objects\Destruction\Rock\BAS_Destroy_Rock_02		119904
 	489616698	BAS_Torch	C:\Users\cacah\OneDrive\Documentos\GitHub\Wwise-Adventure-Game\Wwise_Project\.cache\Windows\SFX\BAS_Torch_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\BAS_Torch		448524
 	513743245	BAS_Waterfall	C:\Users\cacah\OneDrive\Documentos\GitHub\Wwise-Adventure-Game\Wwise_Project\.cache\Windows\SFX\BAS_Waterfall_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\BAS_Waterfall		768096
+	514138009	Desert_120BPM_4_4_L8M_P0	C:\Users\cacah\OneDrive\Documentos\GitHub\Wwise-Adventure-Game\Wwise_Project\.cache\Windows\SFX\Desert_120BPM_4_4_L8M_P0_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Music_Regions\Desert_120BPM_4_4_L8M_P0		6912160
 	560413122	BAS_WaterDrops_01	C:\Users\cacah\OneDrive\Documentos\GitHub\Wwise-Adventure-Game\Wwise_Project\.cache\Windows\SFX\BAS_WaterDrops_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_WaterDrop\BAS_WaterDrops_01		28768
 	611790685	BAS_QuestRoll_Open	C:\Users\cacah\OneDrive\Documentos\GitHub\Wwise-Adventure-Game\Wwise_Project\.cache\Windows\SFX\BAS_QuestRoll_Open_10C4C929.wem		\Actor-Mixer Hierarchy\Factory Soundseed Air Objects\Ui\BAS_QuestRoll_Open		104510
 	613917603	BAS_Button_Close	C:\Users\cacah\OneDrive\Documentos\GitHub\Wwise-Adventure-Game\Wwise_Project\.cache\Windows\SFX\BAS_Button_Close_10C4C929.wem		\Actor-Mixer Hierarchy\Factory Soundseed Air Objects\Ui\BAS_Button_Close		62532
 	634759066	BAS_Button_Enter	C:\Users\cacah\OneDrive\Documentos\GitHub\Wwise-Adventure-Game\Wwise_Project\.cache\Windows\SFX\BAS_Button_Enter_10C4C929.wem		\Actor-Mixer Hierarchy\Factory Soundseed Air Objects\Ui\BAS_Button_Enter		117456
 	657824718	BAS_Destroy_Wood_01	C:\Users\cacah\OneDrive\Documentos\GitHub\Wwise-Adventure-Game\Wwise_Project\.cache\Windows\SFX\BAS_Destroy_Wood_01_10C4C929.wem		\Actor-Mixer Hierarchy\Factory Soundseed Air Objects\Destruction\Wood\BAS_Destroy_Wood_01		124000
+	693610793	Nowhere_120BPM_4_4_L8M_P0	C:\Users\cacah\OneDrive\Documentos\GitHub\Wwise-Adventure-Game\Wwise_Project\.cache\Windows\SFX\Nowhere_120BPM_4_4_L8M_P0_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Music_Regions\Nowhere_120BPM_4_4_L8M_P0		3072160
 	706629777	BAS_Button_Teleport	C:\Users\cacah\OneDrive\Documentos\GitHub\Wwise-Adventure-Game\Wwise_Project\.cache\Windows\SFX\BAS_Button_Teleport_10C4C929.wem		\Actor-Mixer Hierarchy\Factory Soundseed Air Objects\Ui\BAS_Button_Teleport		345460
+	721216940	Village_120BPM_4_4_L8M_P1M	C:\Users\cacah\OneDrive\Documentos\GitHub\Wwise-Adventure-Game\Wwise_Project\.cache\Windows\SFX\Village_120BPM_4_4_L8M_P1M_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Music_Regions\Village_120BPM_4_4_L8M_P1M		4224160
 	767330647	BAS_QuestRoll_Close	C:\Users\cacah\OneDrive\Documentos\GitHub\Wwise-Adventure-Game\Wwise_Project\.cache\Windows\SFX\BAS_QuestRoll_Close_10C4C929.wem		\Actor-Mixer Hierarchy\Factory Soundseed Air Objects\Ui\BAS_QuestRoll_Close		112358
 	773853300	BAS_Inventory_Scroll	C:\Users\cacah\OneDrive\Documentos\GitHub\Wwise-Adventure-Game\Wwise_Project\.cache\Windows\SFX\BAS_Inventory_Scroll_10C4C929.wem		\Actor-Mixer Hierarchy\Factory Soundseed Air Objects\Ui\BAS_Inventory_Scroll		53988
 	800984228	BAS_Crystal_Ringing	C:\Users\cacah\OneDrive\Documentos\GitHub\Wwise-Adventure-Game\Wwise_Project\.cache\Windows\SFX\BAS_Crystal_Ringing_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\BAS_Crystal_Ringing		2469760

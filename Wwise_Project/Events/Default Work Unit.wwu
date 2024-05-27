@@ -364,6 +364,39 @@
 						<Event Name="Destruction_Core_Explosion" ID="{C8A3C286-616D-4C02-BFEA-B64EDF7FD03E}"/>
 					</ChildrenList>
 				</Folder>
+				<Event Name="Music_TitleScreen" ID="{5EB0FA60-BF3E-4AE1-884D-C52C1075B6E2}">
+					<ChildrenList>
+						<Action Name="" ID="{012165B9-D643-4B6F-B5B2-F20D8F8F6B7A}" ShortID="277182980">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TitleScreen_120BPM_4_4_L41M_P2M" ID="{C99F3607-50E2-4BB1-8788-8C9752084E47}" WorkUnitID="{42F9D81D-BF05-4E47-8D34-FF3871EB7B48}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Music_Credits" ID="{9DE9AD2A-8B6C-4259-BA1E-F0260912A262}">
+					<ChildrenList>
+						<Action Name="" ID="{1CDB043B-FA3D-4C3F-880D-B25F2DA64412}" ShortID="911595432">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Credits_120BPM_4_4_L8M_P0" ID="{B7B88D0F-F8F4-4C5E-9D2B-7D1F7AC6CD5C}" WorkUnitID="{42F9D81D-BF05-4E47-8D34-FF3871EB7B48}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Music_Region" ID="{4E9BDFF9-114D-458B-81FF-AD3F677B10EE}">
+					<ChildrenList>
+						<Action Name="" ID="{B4248686-B9B0-4A1F-A240-4375E154445A}" ShortID="1037793083">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music_Regions" ID="{68A9E2EA-3385-42B3-914A-1236A5ECE048}" WorkUnitID="{42F9D81D-BF05-4E47-8D34-FF3871EB7B48}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="133642231" Type="User" Language="SFX" Hash="{D927AAC0-10A2-21EE-F499-F94783593842}">
+		<SoundBank Id="133642231" Type="User" Language="SFX" Hash="{F253F59D-2B31-0F54-93AB-717B507259E2}">
 			<ShortName>General</ShortName>
 			<Path>General.bnk</Path>
 			<Media>
@@ -24,6 +24,10 @@
 				<File Id="81864614" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Quest_Complete.wav</ShortName>
 					<CachePath>SFX/Quest_Complete_10C4C929.wem</CachePath>
+				</File>
+				<File Id="83372869" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Dungeon_120BPM_4_4_L8M_P1M.wav</ShortName>
+					<CachePath>SFX/Dungeon_120BPM_4_4_L8M_P1M_10C4C929.wem</CachePath>
 				</File>
 				<File Id="84478941" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Quest_CompleteCollection.wav</ShortName>
@@ -49,9 +53,25 @@
 					<ShortName>BAS_Button_Over.wav</ShortName>
 					<CachePath>SFX/BAS_Button_Over_10C4C929.wem</CachePath>
 				</File>
+				<File Id="231622313" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>TitleScreen_120BPM_4_4_L41M_P2M.wav</ShortName>
+					<CachePath>SFX/TitleScreen_120BPM_4_4_L41M_P2M_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="235526537" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Woodlands_Night_120BPM_4_4_L8M_P1M.wav</ShortName>
+					<CachePath>SFX/Woodlands_Night_120BPM_4_4_L8M_P1M_10C4C929.wem</CachePath>
+				</File>
+				<File Id="247567948" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Credits_120BPM_4_4_L8M_P0.wav</ShortName>
+					<CachePath>SFX/Credits_120BPM_4_4_L8M_P0_10C4C929.wem</CachePath>
+				</File>
 				<File Id="283221156" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Explosion.wav</ShortName>
 					<CachePath>SFX/Explosion_10C4C929.wem</CachePath>
+				</File>
+				<File Id="344803208" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cave_Silent_WwizardHouse_120BPM_L8M_P0.wav</ShortName>
+					<CachePath>SFX/Cave_Silent_WwizardHouse_120BPM_L8M_P0_D79FB2B7.wem</CachePath>
 				</File>
 				<File Id="378372934" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>BAS_WaterDrops_03.wav</ShortName>
@@ -64,6 +84,10 @@
 				<File Id="424892011" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>BAS_Lava.wav</ShortName>
 					<CachePath>SFX/BAS_Lava_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="428107694" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Woodlands_Day_120BPM_4_4_L8M_P0.wav</ShortName>
+					<CachePath>SFX/Woodlands_Day_120BPM_4_4_L8M_P0_10C4C929.wem</CachePath>
 				</File>
 				<File Id="434499914" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>BAS_Destroy_Rock_01.wav</ShortName>
@@ -85,6 +109,10 @@
 					<ShortName>BAS_Waterfall.wav</ShortName>
 					<CachePath>SFX/BAS_Waterfall_10C4C929.wem</CachePath>
 				</File>
+				<File Id="514138009" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Desert_120BPM_4_4_L8M_P0.wav</ShortName>
+					<CachePath>SFX/Desert_120BPM_4_4_L8M_P0_10C4C929.wem</CachePath>
+				</File>
 				<File Id="560413122" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>BAS_WaterDrops_01.wav</ShortName>
 					<CachePath>SFX/BAS_WaterDrops_01_10C4C929.wem</CachePath>
@@ -105,9 +133,17 @@
 					<ShortName>BAS_Destroy_Wood_01.wav</ShortName>
 					<CachePath>SFX/BAS_Destroy_Wood_01_10C4C929.wem</CachePath>
 				</File>
+				<File Id="693610793" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Nowhere_120BPM_4_4_L8M_P0.wav</ShortName>
+					<CachePath>SFX/Nowhere_120BPM_4_4_L8M_P0_10C4C929.wem</CachePath>
+				</File>
 				<File Id="706629777" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>BAS_Button_Teleport.wav</ShortName>
 					<CachePath>SFX/BAS_Button_Teleport_10C4C929.wem</CachePath>
+				</File>
+				<File Id="721216940" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Village_120BPM_4_4_L8M_P1M.wav</ShortName>
+					<CachePath>SFX/Village_120BPM_4_4_L8M_P1M_10C4C929.wem</CachePath>
 				</File>
 				<File Id="767330647" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>BAS_QuestRoll_Close.wav</ShortName>
@@ -219,6 +255,118 @@
 						<MediaRef Id="283221156"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="1882971781" Name="Music_Credits">
+					<MediaRefs>
+						<MediaRef Id="247567948"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3741135221" Name="Music_Region">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="2106907484" Id="1850388778"/>
+							<MediaRefs>
+								<MediaRef Id="514138009"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="2106907484" Id="3424056949"/>
+							<MediaRefs>
+								<MediaRef Id="693610793"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="2106907484" Id="3160623154"/>
+							<MediaRefs>
+								<MediaRef Id="344803208"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="2106907484" Id="3945572659"/>
+							<MediaRefs>
+								<MediaRef Id="721216940"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="2106907484" Id="1421251628"/>
+							<MediaRefs>
+								<MediaRef Id="235526537"/>
+								<MediaRef Id="428107694"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="2106907484" Id="4122393694"/>
+							<MediaRefs>
+								<MediaRef Id="344803208"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="2106907484" Id="3132368115"/>
+							<MediaRefs>
+								<MediaRef Id="344803208"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="2106907484" Id="608898761"/>
+							<MediaRefs>
+								<MediaRef Id="83372869"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="2106907484" Id="1850388778"/>
+							<MediaRefs>
+								<MediaRef Id="514138009"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="2106907484" Id="3424056949"/>
+							<MediaRefs>
+								<MediaRef Id="693610793"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="2106907484" Id="3160623154"/>
+							<MediaRefs>
+								<MediaRef Id="344803208"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="2106907484" Id="3945572659"/>
+							<MediaRefs>
+								<MediaRef Id="721216940"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="2106907484" Id="1421251628"/>
+							<MediaRefs>
+								<MediaRef Id="235526537"/>
+								<MediaRef Id="428107694"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="2106907484" Id="4122393694"/>
+							<MediaRefs>
+								<MediaRef Id="344803208"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="2106907484" Id="3132368115"/>
+							<MediaRefs>
+								<MediaRef Id="344803208"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="2106907484" Id="608898761"/>
+							<MediaRefs>
+								<MediaRef Id="83372869"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="1532327793" Name="Music_TitleScreen">
+					<MediaRefs>
+						<MediaRef Id="231622313"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="2453392179" Name="Player_Footstep"/>
 				<Event Id="3240473869" Name="Quest_Complete">
 					<MediaRefs>
@@ -306,8 +454,23 @@
 					</MediaRefs>
 				</Event>
 			</Events>
+			<StateGroups>
+				<StateGroup Id="2106907484" Name="Music_Regions">
+					<States>
+						<State Id="608898761" Name="Dungeon"/>
+						<State Id="748895195" Name="None"/>
+						<State Id="1421251628" Name="Woodlands"/>
+						<State Id="1850388778" Name="Desert"/>
+						<State Id="3132368115" Name="WwizardHouse"/>
+						<State Id="3160623154" Name="Silent"/>
+						<State Id="3424056949" Name="Nowhere"/>
+						<State Id="3945572659" Name="Village"/>
+						<State Id="4122393694" Name="Cave"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{EC4ADDF0-EC19-A1E0-5751-207E2B162889}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{155F0022-8782-93DE-E6EF-69015110A7DA}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -417,6 +580,21 @@
 				<GameParameter Id="3847924954" Name="SS_Air_Presence"/>
 				<GameParameter Id="4160247818" Name="SS_Air_Turbulence"/>
 			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="2106907484" Name="Music_Regions">
+					<States>
+						<State Id="608898761" Name="Dungeon"/>
+						<State Id="748895195" Name="None"/>
+						<State Id="1421251628" Name="Woodlands"/>
+						<State Id="1850388778" Name="Desert"/>
+						<State Id="3132368115" Name="WwizardHouse"/>
+						<State Id="3160623154" Name="Silent"/>
+						<State Id="3424056949" Name="Nowhere"/>
+						<State Id="3945572659" Name="Village"/>
+						<State Id="4122393694" Name="Cave"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
 			<AcousticTextures>
 				<AcousticTexture Id="504532776" Name="Brick">
 					<Properties>
@@ -678,5 +856,5 @@
 			<Path>Destruction.bnk</Path>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{3E3857A6-3F15-2B13-D4F1-91B3D88F801F}</FileHash>
+	<FileHash>{D75687D6-5D67-18A6-900E-7AE6B640F063}</FileHash>
 </SoundBanksInfo>

@@ -1426,6 +1426,327 @@
 						</Sound>
 					</ChildrenList>
 				</RandomSequenceContainer>
+				<Folder Name="Music" ID="{005A289A-5ECC-4796-813D-F1A8A6BDE8DD}" ShortID="788322185">
+					<ChildrenList>
+						<Sound Name="Credits_120BPM_4_4_L8M_P0" ID="{B7B88D0F-F8F4-4C5E-9D2B-7D1F7AC6CD5C}" ShortID="514435477">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>12</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{67E07429-912F-4826-B1FE-DD029D4311E0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Music" ID="{F6F6B973-62B6-44C5-AC1C-FC42082C3DA3}" WorkUnitID="{AA8389C2-6D1E-42DC-A390-6064824D19D7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Credits_120BPM_4_4_L8M_P0" ID="{2947F00C-4C7C-4FBE-A6D3-C6CC8219EDAC}">
+									<Language>SFX</Language>
+									<AudioFile>Credits_120BPM_4_4_L8M_P0.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="247567948"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Credits_120BPM_4_4_L8M_P0" ID="{2947F00C-4C7C-4FBE-A6D3-C6CC8219EDAC}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<SwitchContainer Name="Music_Regions" ID="{68A9E2EA-3385-42B3-914A-1236A5ECE048}" ShortID="609483041">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>22</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{67E07429-912F-4826-B1FE-DD029D4311E0}"/>
+								</Reference>
+								<Reference Name="DefaultSwitchOrState">
+									<ObjectRef Name="None" ID="{E8CD0A03-4AD9-489B-BC49-F95195F531DB}" WorkUnitID="{21A233E0-5A99-4225-898E-D37E362EE503}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Music" ID="{F6F6B973-62B6-44C5-AC1C-FC42082C3DA3}" WorkUnitID="{AA8389C2-6D1E-42DC-A390-6064824D19D7}"/>
+								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="Music_Regions" ID="{D7B5357B-1895-4E91-931B-BB360610F8D9}" WorkUnitID="{21A233E0-5A99-4225-898E-D37E362EE503}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Desert_120BPM_4_4_L8M_P0" ID="{AA1B5013-7ADA-46AA-BC45-F77CC798E3E6}" ShortID="284922463">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{67E07429-912F-4826-B1FE-DD029D4311E0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA8389C2-6D1E-42DC-A390-6064824D19D7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Desert_120BPM_4_4_L8M_P0" ID="{0F86DEC9-928A-4081-9059-16B0DF86DC06}">
+											<Language>SFX</Language>
+											<AudioFile>Desert_120BPM_4_4_L8M_P0.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="514138009"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Desert_120BPM_4_4_L8M_P0" ID="{0F86DEC9-928A-4081-9059-16B0DF86DC06}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Dungeon_120BPM_4_4_L8M_P1M" ID="{688147B5-FB99-4070-BEE6-83D300DC856C}" ShortID="862505118">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{67E07429-912F-4826-B1FE-DD029D4311E0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA8389C2-6D1E-42DC-A390-6064824D19D7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Dungeon_120BPM_4_4_L8M_P1M" ID="{D3C6CDB2-1E1C-4C99-B8E6-7E065AA39B10}">
+											<Language>SFX</Language>
+											<AudioFile>Dungeon_120BPM_4_4_L8M_P1M.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="83372869"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Dungeon_120BPM_4_4_L8M_P1M" ID="{D3C6CDB2-1E1C-4C99-B8E6-7E065AA39B10}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Nowhere_120BPM_4_4_L8M_P0" ID="{42EC90B1-EF4C-4B89-B2EC-6CB92E442646}" ShortID="1057249868">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{67E07429-912F-4826-B1FE-DD029D4311E0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA8389C2-6D1E-42DC-A390-6064824D19D7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Nowhere_120BPM_4_4_L8M_P0" ID="{DABE00EA-227E-4C89-8652-A0F76A03DC23}">
+											<Language>SFX</Language>
+											<AudioFile>Nowhere_120BPM_4_4_L8M_P0.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="693610793"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Nowhere_120BPM_4_4_L8M_P0" ID="{DABE00EA-227E-4C89-8652-A0F76A03DC23}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Village_120BPM_4_4_L8M_P1M" ID="{AD859667-5053-4AEF-85F1-67FBA7604A3A}" ShortID="807978714">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{67E07429-912F-4826-B1FE-DD029D4311E0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA8389C2-6D1E-42DC-A390-6064824D19D7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Village_120BPM_4_4_L8M_P1M" ID="{0F460B2C-B906-4123-BCAA-7D3EB7F5773B}">
+											<Language>SFX</Language>
+											<AudioFile>Village_120BPM_4_4_L8M_P1M.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="721216940"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Village_120BPM_4_4_L8M_P1M" ID="{0F460B2C-B906-4123-BCAA-7D3EB7F5773B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Woodlands_Day_120BPM_4_4_L8M_P0" ID="{0D31BAAF-A996-45AA-81DF-DD221BE79BD9}" ShortID="12640894">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{67E07429-912F-4826-B1FE-DD029D4311E0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA8389C2-6D1E-42DC-A390-6064824D19D7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Woodlands_Day_120BPM_4_4_L8M_P0" ID="{457BF50D-43F3-4EA2-BA46-74B5FD4F0226}">
+											<Language>SFX</Language>
+											<AudioFile>Woodlands_Day_120BPM_4_4_L8M_P0.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="428107694"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Woodlands_Day_120BPM_4_4_L8M_P0" ID="{457BF50D-43F3-4EA2-BA46-74B5FD4F0226}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Woodlands_Night_120BPM_4_4_L8M_P1M" ID="{07ADDFCD-9A69-400E-8DA4-C20DB8619E8B}" ShortID="233851471">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{67E07429-912F-4826-B1FE-DD029D4311E0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA8389C2-6D1E-42DC-A390-6064824D19D7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Woodlands_Night_120BPM_4_4_L8M_P1M" ID="{8330846C-CB1B-4F64-A362-2FB2F15C0355}">
+											<Language>SFX</Language>
+											<AudioFile>Woodlands_Night_120BPM_4_4_L8M_P1M.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="235526537"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Woodlands_Night_120BPM_4_4_L8M_P1M" ID="{8330846C-CB1B-4F64-A362-2FB2F15C0355}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Cave_Silent_WwizardHouse_120BPM_L8M_P0" ID="{B94EA41D-6BF6-4D6C-A7AC-8A9AEC50CC13}" ShortID="585403890">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{67E07429-912F-4826-B1FE-DD029D4311E0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA8389C2-6D1E-42DC-A390-6064824D19D7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Cave_Silent_WwizardHouse_120BPM_L8M_P0" ID="{8CEDD289-1B45-48AF-A6D0-7BA413F774C2}">
+											<Language>SFX</Language>
+											<AudioFile>Cave_Silent_WwizardHouse_120BPM_L8M_P0.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="344803208"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Cave_Silent_WwizardHouse_120BPM_L8M_P0" ID="{8CEDD289-1B45-48AF-A6D0-7BA413F774C2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="Desert_120BPM_4_4_L8M_P0" ID="{AA1B5013-7ADA-46AA-BC45-F77CC798E3E6}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Cave_Silent_WwizardHouse_120BPM_L8M_P0" ID="{B94EA41D-6BF6-4D6C-A7AC-8A9AEC50CC13}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Village_120BPM_4_4_L8M_P1M" ID="{AD859667-5053-4AEF-85F1-67FBA7604A3A}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Woodlands_Day_120BPM_4_4_L8M_P0" ID="{0D31BAAF-A996-45AA-81DF-DD221BE79BD9}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Nowhere_120BPM_4_4_L8M_P0" ID="{42EC90B1-EF4C-4B89-B2EC-6CB92E442646}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Dungeon_120BPM_4_4_L8M_P1M" ID="{688147B5-FB99-4070-BEE6-83D300DC856C}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Woodlands_Night_120BPM_4_4_L8M_P1M" ID="{07ADDFCD-9A69-400E-8DA4-C20DB8619E8B}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="Desert" ID="{4D7A881D-0EB8-48E2-82D6-57CED6F33079}"/>
+										<ItemList>
+											<ItemRef Name="Desert_120BPM_4_4_L8M_P0" ID="{AA1B5013-7ADA-46AA-BC45-F77CC798E3E6}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Nowhere" ID="{D2558730-7EEB-462F-AFCE-F9425AA67B3B}"/>
+										<ItemList>
+											<ItemRef Name="Nowhere_120BPM_4_4_L8M_P0" ID="{42EC90B1-EF4C-4B89-B2EC-6CB92E442646}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Silent" ID="{6DE87B38-C621-4A62-8F47-260B7E2BF177}"/>
+										<ItemList>
+											<ItemRef Name="Cave_Silent_WwizardHouse_120BPM_L8M_P0" ID="{B94EA41D-6BF6-4D6C-A7AC-8A9AEC50CC13}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Village" ID="{DE9CC449-EC69-430E-879E-906628CE8009}"/>
+										<ItemList>
+											<ItemRef Name="Village_120BPM_4_4_L8M_P1M" ID="{AD859667-5053-4AEF-85F1-67FBA7604A3A}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Woodlands" ID="{135CE07A-CC70-4027-A6ED-6070C672D8AC}"/>
+										<ItemList>
+											<ItemRef Name="Woodlands_Day_120BPM_4_4_L8M_P0" ID="{0D31BAAF-A996-45AA-81DF-DD221BE79BD9}"/>
+											<ItemRef Name="Woodlands_Night_120BPM_4_4_L8M_P1M" ID="{07ADDFCD-9A69-400E-8DA4-C20DB8619E8B}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Cave" ID="{E10B739D-AF12-4322-A92E-F918C4D2A87E}"/>
+										<ItemList>
+											<ItemRef Name="Cave_Silent_WwizardHouse_120BPM_L8M_P0" ID="{B94EA41D-6BF6-4D6C-A7AC-8A9AEC50CC13}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="WwizardHouse" ID="{C2B31AA1-126A-474A-B2E9-81D64BC801BB}"/>
+										<ItemList>
+											<ItemRef Name="Cave_Silent_WwizardHouse_120BPM_L8M_P0" ID="{B94EA41D-6BF6-4D6C-A7AC-8A9AEC50CC13}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Dungeon" ID="{ED1FDECF-62C4-4464-B6EE-EA1DC50A2420}"/>
+										<ItemList>
+											<ItemRef Name="Dungeon_120BPM_4_4_L8M_P1M" ID="{688147B5-FB99-4070-BEE6-83D300DC856C}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
+							</GroupingInfo>
+						</SwitchContainer>
+						<Sound Name="TitleScreen_120BPM_4_4_L41M_P2M" ID="{C99F3607-50E2-4BB1-8788-8C9752084E47}" ShortID="460372844">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>12</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{67E07429-912F-4826-B1FE-DD029D4311E0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA8389C2-6D1E-42DC-A390-6064824D19D7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="TitleScreen_120BPM_4_4_L41M_P2M" ID="{1F6C95B4-33C7-44CC-A4D7-63FF3D58781A}">
+									<Language>SFX</Language>
+									<AudioFile>TitleScreen_120BPM_4_4_L41M_P2M.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="231622313"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="TitleScreen_120BPM_4_4_L41M_P2M" ID="{1F6C95B4-33C7-44CC-A4D7-63FF3D58781A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
