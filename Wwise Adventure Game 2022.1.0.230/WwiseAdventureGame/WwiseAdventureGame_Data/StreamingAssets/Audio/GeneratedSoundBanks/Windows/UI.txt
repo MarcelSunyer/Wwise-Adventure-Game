@@ -1,0 +1,33 @@
+Event	ID	Name			Wwise Object Path	Notes
+	15662850	UI_Button_Up			\Default Work Unit\Ui_Folder\UI_Button_Up	
+	18309885	UI_Button_Enter			\Default Work Unit\Ui_Folder\UI_Button_Enter	
+	156563189	UI_Button_Down			\Default Work Unit\Ui_Folder\UI_Button_Down	
+	750089663	UI_Menu_Teleport			\Default Work Unit\Ui_Folder\UI_Menu_Teleport	
+	808893336	UI_QuestRoll_Close			\Default Work Unit\Ui_Folder\UI_QuestRoll_Close	
+	844130829	Quest_CompleteCollection			\Default Work Unit\Ui_Folder\Quest_CompleteCollection	
+	949395292	UI_QuestRoll_Open			\Default Work Unit\Ui_Folder\UI_QuestRoll_Open	
+	1464993479	UI_Menu_Resume			\Default Work Unit\Ui_Folder\UI_Menu_Resume	
+	2199611969	UI_Inventory_Open			\Default Work Unit\Ui_Folder\UI_Inventory_Open	
+	2278290679	UI_Inventory_Close			\Default Work Unit\Ui_Folder\UI_Inventory_Close	
+	2325560497	UI_Button_Exit			\Default Work Unit\Ui_Folder\UI_Button_Exit	
+	2792117052	UI_QuestRoll_Hide			\Default Work Unit\Ui_Folder\UI_QuestRoll_Hide	
+	3237189652	UI_Menu_Pause			\Default Work Unit\Ui_Folder\UI_Menu_Pause	
+	3240473869	Quest_Complete			\Default Work Unit\Ui_Folder\Quest_Complete	
+	3474566310	UI_Menu_Select			\Default Work Unit\Ui_Folder\UI_Menu_Select	
+	3699139167	UI_QuestRoll_Show			\Default Work Unit\Ui_Folder\UI_QuestRoll_Show	
+	3749307760	UI_Inventory_Roll			\Default Work Unit\Ui_Folder\UI_Inventory_Roll	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	81864614	Quest_Complete	C:\Users\Marcel\Documents\GitHub\Game_Engine\Wwise-Adventure-Game\Wwise_Project\.cache\Windows\SFX\Quest_Complete_10C4C929.wem		\Actor-Mixer Hierarchy\Factory Soundseed Air Objects\Ui\Quest_Complete		377952
+	84478941	Quest_CompleteCollection	C:\Users\Marcel\Documents\GitHub\Game_Engine\Wwise-Adventure-Game\Wwise_Project\.cache\Windows\SFX\Quest_CompleteCollection_10C4C929.wem		\Actor-Mixer Hierarchy\Factory Soundseed Air Objects\Ui\Quest_CompleteCollection		345696
+	89461406	BAS_Inventory_Open	C:\Users\Marcel\Documents\GitHub\Game_Engine\Wwise-Adventure-Game\Wwise_Project\.cache\Windows\SFX\BAS_Inventory_Open_10C4C929.wem		\Actor-Mixer Hierarchy\Factory Soundseed Air Objects\Ui\BAS_Inventory_Open		45400
+	131351217	BAS_Inventory_Close	C:\Users\Marcel\Documents\GitHub\Game_Engine\Wwise-Adventure-Game\Wwise_Project\.cache\Windows\SFX\BAS_Inventory_Close_10C4C929.wem		\Actor-Mixer Hierarchy\Factory Soundseed Air Objects\Ui\BAS_Inventory_Close		46656
+	136099877	BAS_Button_Over	C:\Users\Marcel\Documents\GitHub\Game_Engine\Wwise-Adventure-Game\Wwise_Project\.cache\Windows\SFX\BAS_Button_Over_10C4C929.wem		\Actor-Mixer Hierarchy\Factory Soundseed Air Objects\Ui\BAS_Button_Over		21272
+	611790685	BAS_QuestRoll_Open	C:\Users\Marcel\Documents\GitHub\Game_Engine\Wwise-Adventure-Game\Wwise_Project\.cache\Windows\SFX\BAS_QuestRoll_Open_10C4C929.wem		\Actor-Mixer Hierarchy\Factory Soundseed Air Objects\Ui\BAS_QuestRoll_Open		104510
+	613917603	BAS_Button_Close	C:\Users\Marcel\Documents\GitHub\Game_Engine\Wwise-Adventure-Game\Wwise_Project\.cache\Windows\SFX\BAS_Button_Close_10C4C929.wem		\Actor-Mixer Hierarchy\Factory Soundseed Air Objects\Ui\BAS_Button_Close		62532
+	634759066	BAS_Button_Enter	C:\Users\Marcel\Documents\GitHub\Game_Engine\Wwise-Adventure-Game\Wwise_Project\.cache\Windows\SFX\BAS_Button_Enter_10C4C929.wem		\Actor-Mixer Hierarchy\Factory Soundseed Air Objects\Ui\BAS_Button_Enter		117456
+	706629777	BAS_Button_Teleport	C:\Users\Marcel\Documents\GitHub\Game_Engine\Wwise-Adventure-Game\Wwise_Project\.cache\Windows\SFX\BAS_Button_Teleport_10C4C929.wem		\Actor-Mixer Hierarchy\Factory Soundseed Air Objects\Ui\BAS_Button_Teleport		345460
+	767330647	BAS_QuestRoll_Close	C:\Users\Marcel\Documents\GitHub\Game_Engine\Wwise-Adventure-Game\Wwise_Project\.cache\Windows\SFX\BAS_QuestRoll_Close_10C4C929.wem		\Actor-Mixer Hierarchy\Factory Soundseed Air Objects\Ui\BAS_QuestRoll_Close		112358
+	773853300	BAS_Inventory_Scroll	C:\Users\Marcel\Documents\GitHub\Game_Engine\Wwise-Adventure-Game\Wwise_Project\.cache\Windows\SFX\BAS_Inventory_Scroll_10C4C929.wem		\Actor-Mixer Hierarchy\Factory Soundseed Air Objects\Ui\BAS_Inventory_Scroll		53988
+	968412063	BAS_Button_Open	C:\Users\Marcel\Documents\GitHub\Game_Engine\Wwise-Adventure-Game\Wwise_Project\.cache\Windows\SFX\BAS_Button_Open_10C4C929.wem		\Actor-Mixer Hierarchy\Factory Soundseed Air Objects\Ui\BAS_Button_Open		56288
+

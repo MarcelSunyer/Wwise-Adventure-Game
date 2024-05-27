@@ -11,6 +11,34 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
+				<SoundBank Name="UI" ID="{19A46240-39D6-4876-92C1-DA952667A76F}">
+					<ObjectInclusionList>
+						<ObjectRef Name="UI_QuestRoll_Hide" ID="{D2C4E977-DEE6-4022-9EDF-8D37F58A8995}" WorkUnitID="{8545330D-7696-464E-9C8B-CE284C0A83B1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_Button_Enter" ID="{78E8249D-C28E-40A7-B6CF-C387D5D686CF}" WorkUnitID="{8545330D-7696-464E-9C8B-CE284C0A83B1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_Inventory_Open" ID="{55830D6B-4CA8-4164-A859-74A9B4706BF4}" WorkUnitID="{8545330D-7696-464E-9C8B-CE284C0A83B1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_Inventory_Roll" ID="{655A94F9-0C6A-429B-AD82-824690E7CF4A}" WorkUnitID="{8545330D-7696-464E-9C8B-CE284C0A83B1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_Button_Up" ID="{9DD6B8A8-8F35-440D-8D77-C69156CE9B80}" WorkUnitID="{8545330D-7696-464E-9C8B-CE284C0A83B1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Quest_CompleteCollection" ID="{EBCADA50-5B8B-477B-B949-A4D71D077C0F}" WorkUnitID="{8545330D-7696-464E-9C8B-CE284C0A83B1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_Inventory_Close" ID="{D87CDB4C-9C57-47A1-B072-F5AFB181D89E}" WorkUnitID="{8545330D-7696-464E-9C8B-CE284C0A83B1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_QuestRoll_Show" ID="{3075D762-E83D-49B6-8828-D4D69D82987F}" WorkUnitID="{8545330D-7696-464E-9C8B-CE284C0A83B1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Quest_Complete" ID="{F7015C67-C846-4A2A-B1E5-9BD2A408A4C4}" WorkUnitID="{8545330D-7696-464E-9C8B-CE284C0A83B1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_Menu_Select" ID="{0E3B369C-6961-4A2D-BB3A-8585D18B68B5}" WorkUnitID="{8545330D-7696-464E-9C8B-CE284C0A83B1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_QuestRoll_Close" ID="{6EFA9B75-4048-4ADA-8177-E8830FD95538}" WorkUnitID="{8545330D-7696-464E-9C8B-CE284C0A83B1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_Menu_Pause" ID="{984A1E6C-F413-4B60-AF52-3FE6B0FE9B52}" WorkUnitID="{8545330D-7696-464E-9C8B-CE284C0A83B1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_Button_Down" ID="{DA2A93BB-0126-4CAD-A615-A284BA505654}" WorkUnitID="{8545330D-7696-464E-9C8B-CE284C0A83B1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_QuestRoll_Open" ID="{0DDCCCFE-56B0-4CFE-ACE8-DDA1F3BAC947}" WorkUnitID="{8545330D-7696-464E-9C8B-CE284C0A83B1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_Menu_Teleport" ID="{8816B0C8-D25B-4DD1-A38B-75A50CEC4AC8}" WorkUnitID="{8545330D-7696-464E-9C8B-CE284C0A83B1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_Menu_Resume" ID="{38B36C9F-7891-4EE7-B6F2-6411DBA68D20}" WorkUnitID="{8545330D-7696-464E-9C8B-CE284C0A83B1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_Button_Exit" ID="{31A5327F-8694-4FD5-A183-E710C0048997}" WorkUnitID="{8545330D-7696-464E-9C8B-CE284C0A83B1}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Destruction" ID="{5ED3AFEE-0681-48AE-8955-5D7338B523BA}">
+					<ObjectInclusionList/>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>

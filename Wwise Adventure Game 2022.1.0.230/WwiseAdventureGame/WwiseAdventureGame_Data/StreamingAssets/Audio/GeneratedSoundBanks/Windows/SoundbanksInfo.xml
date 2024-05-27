@@ -9,13 +9,45 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="133642231" Type="User" Language="SFX" Hash="{D0943E93-67E0-787D-5FB7-2E435B056908}">
+		<SoundBank Id="133642231" Type="User" Language="SFX" Hash="{058B0238-8DB9-8489-C077-FBCCE58F176E}">
 			<ShortName>General</ShortName>
 			<Path>General.bnk</Path>
 			<Media>
+				<File Id="78587494" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BAS_Destroy_Wood_03.wav</ShortName>
+					<CachePath>SFX/BAS_Destroy_Wood_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="81864614" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Quest_Complete.wav</ShortName>
+					<CachePath>SFX/Quest_Complete_10C4C929.wem</CachePath>
+				</File>
+				<File Id="84478941" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Quest_CompleteCollection.wav</ShortName>
+					<CachePath>SFX/Quest_CompleteCollection_10C4C929.wem</CachePath>
+				</File>
+				<File Id="89461406" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BAS_Inventory_Open.wav</ShortName>
+					<CachePath>SFX/BAS_Inventory_Open_10C4C929.wem</CachePath>
+				</File>
+				<File Id="113439921" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BAS_Destroy_Wood_02.wav</ShortName>
+					<CachePath>SFX/BAS_Destroy_Wood_02_10C4C929.wem</CachePath>
+				</File>
 				<File Id="114168133" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>BAS_WaterDrops_05.wav</ShortName>
 					<CachePath>SFX/BAS_WaterDrops_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="131351217" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BAS_Inventory_Close.wav</ShortName>
+					<CachePath>SFX/BAS_Inventory_Close_10C4C929.wem</CachePath>
+				</File>
+				<File Id="136099877" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BAS_Button_Over.wav</ShortName>
+					<CachePath>SFX/BAS_Button_Over_10C4C929.wem</CachePath>
+				</File>
+				<File Id="283221156" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Explosion.wav</ShortName>
+					<CachePath>SFX/Explosion_10C4C929.wem</CachePath>
 				</File>
 				<File Id="378372934" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>BAS_WaterDrops_03.wav</ShortName>
@@ -25,25 +57,69 @@
 					<ShortName>BAS_Lava.wav</ShortName>
 					<CachePath>SFX/BAS_Lava_D79FB2B7.wem</CachePath>
 				</File>
+				<File Id="434499914" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BAS_Destroy_Rock_01.wav</ShortName>
+					<CachePath>SFX/BAS_Destroy_Rock_01_10C4C929.wem</CachePath>
+				</File>
 				<File Id="446773669" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>BAS_WaterDrops_06.wav</ShortName>
 					<CachePath>SFX/BAS_WaterDrops_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="473603947" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BAS_Destroy_Rock_02.wav</ShortName>
+					<CachePath>SFX/BAS_Destroy_Rock_02_10C4C929.wem</CachePath>
 				</File>
 				<File Id="560413122" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>BAS_WaterDrops_01.wav</ShortName>
 					<CachePath>SFX/BAS_WaterDrops_01_10C4C929.wem</CachePath>
 				</File>
-				<File Id="767388239" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>BAS_Player_Footstep_dirt_walk_01.wav</ShortName>
-					<CachePath>SFX/BAS_Player_Footstep_dirt_walk_01_10C4C929.wem</CachePath>
+				<File Id="611790685" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BAS_QuestRoll_Open.wav</ShortName>
+					<CachePath>SFX/BAS_QuestRoll_Open_10C4C929.wem</CachePath>
+				</File>
+				<File Id="613917603" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BAS_Button_Close.wav</ShortName>
+					<CachePath>SFX/BAS_Button_Close_10C4C929.wem</CachePath>
+				</File>
+				<File Id="634759066" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BAS_Button_Enter.wav</ShortName>
+					<CachePath>SFX/BAS_Button_Enter_10C4C929.wem</CachePath>
+				</File>
+				<File Id="657824718" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BAS_Destroy_Wood_01.wav</ShortName>
+					<CachePath>SFX/BAS_Destroy_Wood_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="706629777" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BAS_Button_Teleport.wav</ShortName>
+					<CachePath>SFX/BAS_Button_Teleport_10C4C929.wem</CachePath>
+				</File>
+				<File Id="767330647" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BAS_QuestRoll_Close.wav</ShortName>
+					<CachePath>SFX/BAS_QuestRoll_Close_10C4C929.wem</CachePath>
+				</File>
+				<File Id="773853300" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BAS_Inventory_Scroll.wav</ShortName>
+					<CachePath>SFX/BAS_Inventory_Scroll_10C4C929.wem</CachePath>
 				</File>
 				<File Id="816327592" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>BAS_WaterDrops_04.wav</ShortName>
 					<CachePath>SFX/BAS_WaterDrops_04_10C4C929.wem</CachePath>
 				</File>
+				<File Id="839126614" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BAS_Destroy_Rock_03.wav</ShortName>
+					<CachePath>SFX/BAS_Destroy_Rock_03_10C4C929.wem</CachePath>
+				</File>
 				<File Id="924086485" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>BAS_WaterDrops_02.wav</ShortName>
 					<CachePath>SFX/BAS_WaterDrops_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="968412063" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BAS_Button_Open.wav</ShortName>
+					<CachePath>SFX/BAS_Button_Open_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1046861737" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BAS_Crystals_Destroy.wav</ShortName>
+					<CachePath>SFX/BAS_Crystals_Destroy_10C4C929.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
@@ -69,14 +145,119 @@
 				</Event>
 				<Event Id="1934835592" Name="Ambient_Waterfall"/>
 				<Event Id="2208964750" Name="Ambient_Windmill"/>
+				<Event Id="4254124015" Name="Destruction_Container">
+					<MediaRefs>
+						<MediaRef Id="78587494"/>
+						<MediaRef Id="113439921"/>
+						<MediaRef Id="657824718"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="448719855" Name="Destruction_Crystal_Destroy">
+					<MediaRefs>
+						<MediaRef Id="1046861737"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1999886838" Name="Destruction_Rock_Destroy">
+					<MediaRefs>
+						<MediaRef Id="434499914"/>
+						<MediaRef Id="473603947"/>
+						<MediaRef Id="839126614"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2148493779" Name="Destruction_VulcanicBoulder_Impact">
+					<MediaRefs>
+						<MediaRef Id="283221156"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="3556635307" Name="Door_DLCdoor_Open_Play"/>
 				<Event Id="2379298625" Name="Door_DLCdoor_Open_Stop"/>
 				<Event Id="3492604883" Name="Door_TempleDoor_Open_Play"/>
 				<Event Id="2409105241" Name="Music_ArcadeMachine_Play"/>
 				<Event Id="746676127" Name="Music_ArcadeMachine_Stop"/>
-				<Event Id="2453392179" Name="Player_Footstep">
+				<Event Id="2453392179" Name="Player_Footstep"/>
+				<Event Id="3240473869" Name="Quest_Complete">
 					<MediaRefs>
-						<MediaRef Id="767388239"/>
+						<MediaRef Id="81864614"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="844130829" Name="Quest_CompleteCollection">
+					<MediaRefs>
+						<MediaRef Id="84478941"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="156563189" Name="UI_Button_Down">
+					<MediaRefs>
+						<MediaRef Id="136099877"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="18309885" Name="UI_Button_Enter">
+					<MediaRefs>
+						<MediaRef Id="634759066"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2325560497" Name="UI_Button_Exit">
+					<MediaRefs>
+						<MediaRef Id="613917603"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="15662850" Name="UI_Button_Up">
+					<MediaRefs>
+						<MediaRef Id="136099877"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2278290679" Name="UI_Inventory_Close">
+					<MediaRefs>
+						<MediaRef Id="131351217"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2199611969" Name="UI_Inventory_Open">
+					<MediaRefs>
+						<MediaRef Id="89461406"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3749307760" Name="UI_Inventory_Roll">
+					<MediaRefs>
+						<MediaRef Id="773853300"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3237189652" Name="UI_Menu_Pause">
+					<MediaRefs>
+						<MediaRef Id="968412063"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1464993479" Name="UI_Menu_Resume">
+					<MediaRefs>
+						<MediaRef Id="634759066"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3474566310" Name="UI_Menu_Select">
+					<MediaRefs>
+						<MediaRef Id="613917603"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="750089663" Name="UI_Menu_Teleport">
+					<MediaRefs>
+						<MediaRef Id="706629777"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="808893336" Name="UI_QuestRoll_Close">
+					<MediaRefs>
+						<MediaRef Id="767330647"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2792117052" Name="UI_QuestRoll_Hide">
+					<MediaRefs>
+						<MediaRef Id="767330647"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="949395292" Name="UI_QuestRoll_Open">
+					<MediaRefs>
+						<MediaRef Id="611790685"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3699139167" Name="UI_QuestRoll_Show">
+					<MediaRefs>
+						<MediaRef Id="611790685"/>
 					</MediaRefs>
 				</Event>
 			</Events>
@@ -220,6 +401,151 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
+		<SoundBank Id="1551306167" Type="User" Language="SFX" Hash="{6EAC8841-30C6-190E-A1B9-0B45E715E526}">
+			<ShortName>UI</ShortName>
+			<Path>UI.bnk</Path>
+			<Media>
+				<File Id="81864614" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Quest_Complete.wav</ShortName>
+					<CachePath>SFX/Quest_Complete_10C4C929.wem</CachePath>
+				</File>
+				<File Id="84478941" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Quest_CompleteCollection.wav</ShortName>
+					<CachePath>SFX/Quest_CompleteCollection_10C4C929.wem</CachePath>
+				</File>
+				<File Id="89461406" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BAS_Inventory_Open.wav</ShortName>
+					<CachePath>SFX/BAS_Inventory_Open_10C4C929.wem</CachePath>
+				</File>
+				<File Id="131351217" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BAS_Inventory_Close.wav</ShortName>
+					<CachePath>SFX/BAS_Inventory_Close_10C4C929.wem</CachePath>
+				</File>
+				<File Id="136099877" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BAS_Button_Over.wav</ShortName>
+					<CachePath>SFX/BAS_Button_Over_10C4C929.wem</CachePath>
+				</File>
+				<File Id="611790685" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BAS_QuestRoll_Open.wav</ShortName>
+					<CachePath>SFX/BAS_QuestRoll_Open_10C4C929.wem</CachePath>
+				</File>
+				<File Id="613917603" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BAS_Button_Close.wav</ShortName>
+					<CachePath>SFX/BAS_Button_Close_10C4C929.wem</CachePath>
+				</File>
+				<File Id="634759066" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BAS_Button_Enter.wav</ShortName>
+					<CachePath>SFX/BAS_Button_Enter_10C4C929.wem</CachePath>
+				</File>
+				<File Id="706629777" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BAS_Button_Teleport.wav</ShortName>
+					<CachePath>SFX/BAS_Button_Teleport_10C4C929.wem</CachePath>
+				</File>
+				<File Id="767330647" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BAS_QuestRoll_Close.wav</ShortName>
+					<CachePath>SFX/BAS_QuestRoll_Close_10C4C929.wem</CachePath>
+				</File>
+				<File Id="773853300" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BAS_Inventory_Scroll.wav</ShortName>
+					<CachePath>SFX/BAS_Inventory_Scroll_10C4C929.wem</CachePath>
+				</File>
+				<File Id="968412063" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BAS_Button_Open.wav</ShortName>
+					<CachePath>SFX/BAS_Button_Open_10C4C929.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3240473869" Name="Quest_Complete">
+					<MediaRefs>
+						<MediaRef Id="81864614"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="844130829" Name="Quest_CompleteCollection">
+					<MediaRefs>
+						<MediaRef Id="84478941"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="156563189" Name="UI_Button_Down">
+					<MediaRefs>
+						<MediaRef Id="136099877"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="18309885" Name="UI_Button_Enter">
+					<MediaRefs>
+						<MediaRef Id="634759066"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2325560497" Name="UI_Button_Exit">
+					<MediaRefs>
+						<MediaRef Id="613917603"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="15662850" Name="UI_Button_Up">
+					<MediaRefs>
+						<MediaRef Id="136099877"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2278290679" Name="UI_Inventory_Close">
+					<MediaRefs>
+						<MediaRef Id="131351217"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2199611969" Name="UI_Inventory_Open">
+					<MediaRefs>
+						<MediaRef Id="89461406"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3749307760" Name="UI_Inventory_Roll">
+					<MediaRefs>
+						<MediaRef Id="773853300"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3237189652" Name="UI_Menu_Pause">
+					<MediaRefs>
+						<MediaRef Id="968412063"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1464993479" Name="UI_Menu_Resume">
+					<MediaRefs>
+						<MediaRef Id="634759066"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3474566310" Name="UI_Menu_Select">
+					<MediaRefs>
+						<MediaRef Id="613917603"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="750089663" Name="UI_Menu_Teleport">
+					<MediaRefs>
+						<MediaRef Id="706629777"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="808893336" Name="UI_QuestRoll_Close">
+					<MediaRefs>
+						<MediaRef Id="767330647"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2792117052" Name="UI_QuestRoll_Hide">
+					<MediaRefs>
+						<MediaRef Id="767330647"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="949395292" Name="UI_QuestRoll_Open">
+					<MediaRefs>
+						<MediaRef Id="611790685"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3699139167" Name="UI_QuestRoll_Show">
+					<MediaRefs>
+						<MediaRef Id="611790685"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="2446376615" Type="User" Language="SFX" Hash="{BD0A76BE-3907-BFEC-BBE3-753126854422}">
+			<ShortName>Destruction</ShortName>
+			<Path>Destruction.bnk</Path>
+		</SoundBank>
 	</SoundBanks>
-	<FileHash>{674053F0-0E80-568F-B2A6-58173CE068AE}</FileHash>
+	<FileHash>{A60E77B8-C8C7-8F28-DE49-FD067CC72A12}</FileHash>
 </SoundBanksInfo>

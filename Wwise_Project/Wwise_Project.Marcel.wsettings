@@ -3,7 +3,30 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{E31F6ED5-7264-4388-9CE5-7340EC07EEFA}">
 			<PropertyList>
+				<Property Name="Event Action List\{0DDCCCFE-56B0-4CFE-ACE8-DDA1F3BAC947}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{0E3B369C-6961-4A2D-BB3A-8585D18B68B5}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{1B46014D-28FC-4463-8C52-9509B3A2B2B7}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{3075D762-E83D-49B6-8828-D4D69D82987F}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{31A5327F-8694-4FD5-A183-E710C0048997}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{38B36C9F-7891-4EE7-B6F2-6411DBA68D20}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{4E14483E-D9A0-463E-B67A-4938AA535813}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{4E22B861-211E-492A-BF41-FC7600F0D7B8}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{55830D6B-4CA8-4164-A859-74A9B4706BF4}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{655A94F9-0C6A-429B-AD82-824690E7CF4A}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{6EFA9B75-4048-4ADA-8177-E8830FD95538}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{78E8249D-C28E-40A7-B6CF-C387D5D686CF}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{8816B0C8-D25B-4DD1-A38B-75A50CEC4AC8}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{912481BB-9289-4622-8966-E362BBD70F7F}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{984A1E6C-F413-4B60-AF52-3FE6B0FE9B52}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{9DD6B8A8-8F35-440D-8D77-C69156CE9B80}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{D2C4E977-DEE6-4022-9EDF-8D37F58A8995}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{D87CDB4C-9C57-47A1-B072-F5AFB181D89E}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{D918F97B-06BE-4FD7-8E09-D8092D70330E}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{DA2A93BB-0126-4CAD-A615-A284BA505654}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{EBCADA50-5B8B-477B-B949-A4D71D077C0F}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{F05F22BE-E4ED-4794-8189-CAF825AC1712}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{F2BE8238-9F7F-41F9-8531-4DE7F3178BA5}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{F7015C67-C846-4A2A-B1E5-9BD2A408A4C4}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="EventView\FilterMode1" Type="int32" Value="2"/>
 				<Property Name="EventView\FilterMode2" Type="int32" Value="2"/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
@@ -20,6 +43,9 @@
 				<Property Name="General\LatestLanguage" Type="int32" Value="684519430"/>
 				<Property Name="General\LatestPlatform" Type="string" Value="Windows"/>
 				<Property Name="General\SourceControlPluginID" Type="string" Value="{C403A906-0C19-4ED5-808E-748707065301}"/>
+				<Property Name="GenerateSoundBanks\x64_SelectedLanguages" Type="string" Value=""/>
+				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value=""/>
+				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value=""/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
 				<Property Name="MeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 				<Property Name="MeterView\MeterMode1" Type="int32" Value="1"/>
