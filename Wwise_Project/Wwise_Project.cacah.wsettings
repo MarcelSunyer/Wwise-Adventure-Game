@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="UserProjectSettings" SchemaVersion="110">
+	<UserProjectSettingsInfo>
+		<UserProjectSettings Name="" ID="{EF60C6F5-2404-4E5F-B9EB-E75B5FB0DF62}">
+			<PropertyList>
+				<Property Name="Event Action List\{1BDA852B-AACE-42CA-BF9A-628792085A44}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{2C0144EA-CF65-4C4A-BCBD-1464FFE374D4}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{3094E7F1-9BA7-4982-AE3C-3E0513AB7D5D}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{4E22B861-211E-492A-BF41-FC7600F0D7B8}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{527766E8-276B-466D-BE7A-808BFE70AE28}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{84BF40F3-C2BB-4A0F-B995-BB7C6B459A58}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{889E8B54-0FD2-4F4B-A787-B7B977C53E13}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{8B9A540A-A72B-4323-B9BD-C27E43442FDB}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{9242F517-F5D3-4F21-8AC2-60466D08B71A}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{B297ED78-B79C-4E3B-A666-F2AA510354F1}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{B88F5F9A-6001-4501-84E0-F959000C3F1A}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{C74A999B-3721-400C-B417-850CCB726CA0}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{C7F0E35D-1C86-4EF6-9F4E-4F7923E21959}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{D325D1A6-507E-49AA-963D-6DACA1B25776}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{F468D761-FD9D-4C6E-8EE6-2C67A8A763A0}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="ExternalSourcesInputPath" Type="string">
+					<ValueList>
+						<Value Platform="Windows"></Value>
+					</ValueList>
+				</Property>
+				<Property Name="ExternalSourcesOutputPath" Type="string">
+					<ValueList>
+						<Value Platform="Windows">GeneratedSoundBanks\Windows\</Value>
+					</ValueList>
+				</Property>
+				<Property Name="GenerateSoundBanks\x64_SelectedLanguages" Type="string" Value=""/>
+				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value=""/>
+				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value=""/>
+				<Property Name="MeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
+				<Property Name="MeterView\MeterMode1" Type="int32" Value="1"/>
+				<Property Name="MeterView\MeterMode1Viewpoint0" Type="int32" Value="1"/>
+				<Property Name="MeterView\MeterMode1Viewpoint1" Type="int32" Value="2"/>
+				<Property Name="MeterView\MeterMode1Viewpoint2" Type="int32" Value="3"/>
+				<Property Name="MeterView\MeterMode1Viewpoint3" Type="int32" Value="0"/>
+				<Property Name="SoundBankHeaderFilePath" Type="string" Value="GeneratedSoundBanks\"/>
+				<Property Name="SoundBankPaths" Type="string">
+					<ValueList>
+						<Value Platform="Windows">GeneratedSoundBanks\Windows\</Value>
+					</ValueList>
+				</Property>
+				<Property Name="SoundBankPostGenerateCustomCmdDescription" Type="string">
+					<ValueList>
+						<Value Platform="Windows"></Value>
+					</ValueList>
+				</Property>
+				<Property Name="SoundBankPostGenerateCustomCmdLines" Type="string">
+					<ValueList>
+						<Value Platform="Windows"></Value>
+					</ValueList>
+				</Property>
+				<Property Name="SoundBankPreGenerateCustomCmdDescription" Type="string">
+					<ValueList>
+						<Value Platform="Windows"></Value>
+					</ValueList>
+				</Property>
+				<Property Name="SoundBankPreGenerateCustomCmdLines" Type="string">
+					<ValueList>
+						<Value Platform="Windows"></Value>
+					</ValueList>
+				</Property>
+			</PropertyList>
+		</UserProjectSettings>
+	</UserProjectSettingsInfo>
+</WwiseDocument>
