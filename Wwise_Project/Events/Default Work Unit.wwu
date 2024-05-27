@@ -30,7 +30,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Ambient_Crystal_Hum" ID="{B297ED78-B79C-4E3B-A666-F2AA510354F1}"/>
+						<Event Name="Ambient_Crystal_Hum" ID="{B297ED78-B79C-4E3B-A666-F2AA510354F1}">
+							<ChildrenList>
+								<Action Name="" ID="{32E8770A-9B95-460D-8F31-0EBE6B86C303}" ShortID="159843652">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BAS_Crystal_Ringing" ID="{D20905D1-3898-47DA-BDBB-4C385355057C}" WorkUnitID="{42F9D81D-BF05-4E47-8D34-FF3871EB7B48}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 						<Event Name="Ambient_Lava" ID="{3094E7F1-9BA7-4982-AE3C-3E0513AB7D5D}">
 							<ChildrenList>
 								<Action Name="" ID="{D0CE3FDB-EE64-45E5-BBFD-1EC52899F05F}" ShortID="641710716">
@@ -42,14 +52,50 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Ambient_River" ID="{2C0144EA-CF65-4C4A-BCBD-1464FFE374D4}"/>
-						<Event Name="Ambient_Torch" ID="{D325D1A6-507E-49AA-963D-6DACA1B25776}"/>
-						<Event Name="Ambient_Waterfall" ID="{889E8B54-0FD2-4F4B-A787-B7B977C53E13}"/>
-						<Event Name="Ambient_Windmill" ID="{527766E8-276B-466D-BE7A-808BFE70AE28}"/>
-						<Event Name="Door_DLCdoor_Open_Play" ID="{B88F5F9A-6001-4501-84E0-F959000C3F1A}"/>
-						<Event Name="Door_DLCdoor_Open_Stop" ID="{9242F517-F5D3-4F21-8AC2-60466D08B71A}"/>
-						<Event Name="Music_ArcadeMachine_Play" ID="{F468D761-FD9D-4C6E-8EE6-2C67A8A763A0}"/>
-						<Event Name="Music_ArcadeMachine_Stop" ID="{1BDA852B-AACE-42CA-BF9A-628792085A44}"/>
+						<Event Name="Ambient_River" ID="{2C0144EA-CF65-4C4A-BCBD-1464FFE374D4}">
+							<ChildrenList>
+								<Action Name="" ID="{1CB02D74-06C6-4D03-9E22-E8ADF5C544C5}" ShortID="372461522">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BAS_Water_River" ID="{AFACFDF7-4C71-44C7-A40D-62E0B7F618CC}" WorkUnitID="{42F9D81D-BF05-4E47-8D34-FF3871EB7B48}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Ambient_Torch" ID="{D325D1A6-507E-49AA-963D-6DACA1B25776}">
+							<ChildrenList>
+								<Action Name="" ID="{42A86A45-F663-4195-AF11-23133B8BE68E}" ShortID="941559706">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BAS_Torch" ID="{AF00CF77-C6C3-4D93-9994-00A2D3F7C0E5}" WorkUnitID="{42F9D81D-BF05-4E47-8D34-FF3871EB7B48}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Ambient_Waterfall" ID="{889E8B54-0FD2-4F4B-A787-B7B977C53E13}">
+							<ChildrenList>
+								<Action Name="" ID="{EF67EA78-6BB4-4DDF-9331-571AA84C23B1}" ShortID="973836480">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BAS_Waterfall" ID="{E14089B2-1367-4550-89D8-014BDC128371}" WorkUnitID="{42F9D81D-BF05-4E47-8D34-FF3871EB7B48}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Ambient_Windmill" ID="{527766E8-276B-466D-BE7A-808BFE70AE28}">
+							<ChildrenList>
+								<Action Name="" ID="{9B4BDB93-3E20-4F1F-A527-BF8AC26FB204}" ShortID="123286310">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Windmill" ID="{F57FDF77-E6B9-4B0B-BD53-08615207A1F7}" WorkUnitID="{42F9D81D-BF05-4E47-8D34-FF3871EB7B48}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 						<Event Name="Ambient_WaterDrop" ID="{C7F0E35D-1C86-4EF6-9F4E-4F7923E21959}">
 							<ChildrenList>
 								<Action Name="" ID="{2A718AEC-89E7-4641-A33F-0574AAE51346}" ShortID="558069107">
@@ -61,7 +107,6 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Door_TempleDoor_Open_Play" ID="{C74A999B-3721-400C-B417-850CCB726CA0}"/>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Ui_Folder" ID="{641496CD-2B4C-4F96-BB51-210C738A2F61}" ShortID="298638864">
