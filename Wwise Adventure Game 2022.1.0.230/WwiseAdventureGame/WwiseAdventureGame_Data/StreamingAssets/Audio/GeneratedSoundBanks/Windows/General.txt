@@ -13,7 +13,6 @@ Event	ID	Name			Wwise Object Path	Notes
 	1464993479	UI_Menu_Resume			\Default Work Unit\Ui_Folder\UI_Menu_Resume	
 	1934835592	Ambient_Waterfall			\Default Work Unit\3D Emitters\Ambient_Waterfall	
 	1999886838	Destruction_Rock_Destroy			\Default Work Unit\Destruction\Destruction_Rock_Destroy	
-	2148493779	Destruction_VulcanicBoulder_Impact			\Default Work Unit\Destruction\Destruction_VulcanicBoulder_Impact	
 	2199611969	UI_Inventory_Open			\Default Work Unit\Ui_Folder\UI_Inventory_Open	
 	2208964750	Ambient_Windmill			\Default Work Unit\3D Emitters\Ambient_Windmill	
 	2258053876	Ambient_River			\Default Work Unit\3D Emitters\Ambient_River	
@@ -23,10 +22,12 @@ Event	ID	Name			Wwise Object Path	Notes
 	2379298625	Door_DLCdoor_Open_Stop			\Default Work Unit\3D Emitters\Door_DLCdoor_Open_Stop	
 	2409105241	Music_ArcadeMachine_Play			\Default Work Unit\3D Emitters\Music_ArcadeMachine_Play	
 	2453392179	Player_Footstep			\Default Work Unit\Player\Player_Footstep	
+	2541270269	Destruction_VolcanicBoulder_Impact			\Default Work Unit\Destruction\Destruction_VolcanicBoulder_Impact	
 	2644063196	Ambient_WaterDrop			\Default Work Unit\3D Emitters\Ambient_WaterDrop	
 	2792117052	UI_QuestRoll_Hide			\Default Work Unit\Ui_Folder\UI_QuestRoll_Hide	
 	3237189652	UI_Menu_Pause			\Default Work Unit\Ui_Folder\UI_Menu_Pause	
 	3240473869	Quest_Complete			\Default Work Unit\Ui_Folder\Quest_Complete	
+	3250765487	Destruction_Core_Explosion			\Default Work Unit\Destruction\Destruction_Core_Explosion	
 	3474566310	UI_Menu_Select			\Default Work Unit\Ui_Folder\UI_Menu_Select	
 	3492604883	Door_TempleDoor_Open_Play			\Default Work Unit\3D Emitters\Door_TempleDoor_Open_Play	
 	3556635307	Door_DLCdoor_Open_Play			\Default Work Unit\3D Emitters\Door_DLCdoor_Open_Play	

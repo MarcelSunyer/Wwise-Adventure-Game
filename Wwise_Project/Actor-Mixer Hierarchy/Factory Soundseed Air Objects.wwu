@@ -9857,7 +9857,7 @@ Presence is roughly related to distance and occlusion</Comment>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="BAS_Destroy_Wood_01" ID="{2C1E84BB-907B-4F0B-8966-D0580F581411}" ShortID="306863769">
+								<Sound Name="BAS_Destroy_Wood_01" ID="{D0882871-3D88-471E-8250-E02CC2B8C3FC}" ShortID="838463714">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{67E07429-912F-4826-B1FE-DD029D4311E0}"/>
@@ -9867,7 +9867,7 @@ Presence is roughly related to distance and occlusion</Comment>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="BAS_Destroy_Wood_01" ID="{8B073144-1D04-44A9-B01B-EB66DEEF7A69}">
+										<AudioFileSource Name="BAS_Destroy_Wood_01" ID="{43D49587-424A-4398-88D6-52007E60B107}">
 											<Language>SFX</Language>
 											<AudioFile>BAS_Destroy_Wood_01.wav</AudioFile>
 											<MediaIDList>
@@ -9876,10 +9876,10 @@ Presence is roughly related to distance and occlusion</Comment>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="BAS_Destroy_Wood_01" ID="{8B073144-1D04-44A9-B01B-EB66DEEF7A69}" Platform="Linked"/>
+										<ActiveSource Name="BAS_Destroy_Wood_01" ID="{43D49587-424A-4398-88D6-52007E60B107}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="BAS_Destroy_Wood_02" ID="{9036E7DD-F2D0-40DF-972D-6BABECA482E1}" ShortID="13458933">
+								<Sound Name="BAS_Destroy_Wood_02" ID="{6DFF6F3F-C642-4086-8DB0-703E13E6C986}" ShortID="45078207">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{67E07429-912F-4826-B1FE-DD029D4311E0}"/>
@@ -9889,7 +9889,7 @@ Presence is roughly related to distance and occlusion</Comment>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="BAS_Destroy_Wood_02" ID="{C46BE753-F10F-4EC4-ADB2-C7ACE30D5979}">
+										<AudioFileSource Name="BAS_Destroy_Wood_02" ID="{B7AFCD34-4AC4-4CDD-A973-1C1B50729F47}">
 											<Language>SFX</Language>
 											<AudioFile>BAS_Destroy_Wood_02.wav</AudioFile>
 											<MediaIDList>
@@ -9898,10 +9898,10 @@ Presence is roughly related to distance and occlusion</Comment>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="BAS_Destroy_Wood_02" ID="{C46BE753-F10F-4EC4-ADB2-C7ACE30D5979}" Platform="Linked"/>
+										<ActiveSource Name="BAS_Destroy_Wood_02" ID="{B7AFCD34-4AC4-4CDD-A973-1C1B50729F47}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="BAS_Destroy_Wood_03" ID="{94FE70AF-3CF9-480D-9936-9683B95F73BF}" ShortID="554382946">
+								<Sound Name="BAS_Destroy_Wood_03" ID="{558BB50D-BEF1-4997-8DBA-9F0362F8C116}" ShortID="63836107">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{67E07429-912F-4826-B1FE-DD029D4311E0}"/>
@@ -9911,7 +9911,7 @@ Presence is roughly related to distance and occlusion</Comment>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="BAS_Destroy_Wood_03" ID="{4FFEE617-1E33-4D44-829D-6AA83D78A772}">
+										<AudioFileSource Name="BAS_Destroy_Wood_03" ID="{C69BDCF8-895D-427A-BE9A-C4E7C1521189}">
 											<Language>SFX</Language>
 											<AudioFile>BAS_Destroy_Wood_03.wav</AudioFile>
 											<MediaIDList>
@@ -9920,7 +9920,7 @@ Presence is roughly related to distance and occlusion</Comment>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="BAS_Destroy_Wood_03" ID="{4FFEE617-1E33-4D44-829D-6AA83D78A772}" Platform="Linked"/>
+										<ActiveSource Name="BAS_Destroy_Wood_03" ID="{C69BDCF8-895D-427A-BE9A-C4E7C1521189}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
