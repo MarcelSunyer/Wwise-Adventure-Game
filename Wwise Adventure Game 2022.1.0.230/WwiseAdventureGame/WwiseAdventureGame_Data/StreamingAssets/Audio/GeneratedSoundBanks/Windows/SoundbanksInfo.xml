@@ -9,16 +9,71 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="133642231" Type="User" Language="SFX" Hash="{5A182471-6353-CC11-FEC2-93E539B57D58}">
+		<SoundBank Id="133642231" Type="User" Language="SFX" Hash="{D0943E93-67E0-787D-5FB7-2E435B056908}">
 			<ShortName>General</ShortName>
 			<Path>General.bnk</Path>
 			<Media>
+				<File Id="114168133" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BAS_WaterDrops_05.wav</ShortName>
+					<CachePath>SFX/BAS_WaterDrops_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="378372934" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BAS_WaterDrops_03.wav</ShortName>
+					<CachePath>SFX/BAS_WaterDrops_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="424892011" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BAS_Lava.wav</ShortName>
+					<CachePath>SFX/BAS_Lava_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="446773669" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BAS_WaterDrops_06.wav</ShortName>
+					<CachePath>SFX/BAS_WaterDrops_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="560413122" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BAS_WaterDrops_01.wav</ShortName>
+					<CachePath>SFX/BAS_WaterDrops_01_10C4C929.wem</CachePath>
+				</File>
 				<File Id="767388239" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>BAS_Player_Footstep_dirt_walk_01.wav</ShortName>
 					<CachePath>SFX/BAS_Player_Footstep_dirt_walk_01_10C4C929.wem</CachePath>
 				</File>
+				<File Id="816327592" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BAS_WaterDrops_04.wav</ShortName>
+					<CachePath>SFX/BAS_WaterDrops_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="924086485" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BAS_WaterDrops_02.wav</ShortName>
+					<CachePath>SFX/BAS_WaterDrops_02_10C4C929.wem</CachePath>
+				</File>
 			</Media>
 			<Events>
+				<Event Id="3664581270" Name="Ambient_Campfire_Play"/>
+				<Event Id="100151336" Name="Ambient_Campfire_Stop"/>
+				<Event Id="2355650095" Name="Ambient_Crystal_Hum"/>
+				<Event Id="4275106484" Name="Ambient_Lava">
+					<MediaRefs>
+						<MediaRef Id="424892011"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2258053876" Name="Ambient_River"/>
+				<Event Id="120976108" Name="Ambient_Torch"/>
+				<Event Id="2644063196" Name="Ambient_WaterDrop">
+					<MediaRefs>
+						<MediaRef Id="114168133"/>
+						<MediaRef Id="378372934"/>
+						<MediaRef Id="446773669"/>
+						<MediaRef Id="560413122"/>
+						<MediaRef Id="816327592"/>
+						<MediaRef Id="924086485"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1934835592" Name="Ambient_Waterfall"/>
+				<Event Id="2208964750" Name="Ambient_Windmill"/>
+				<Event Id="3556635307" Name="Door_DLCdoor_Open_Play"/>
+				<Event Id="2379298625" Name="Door_DLCdoor_Open_Stop"/>
+				<Event Id="3492604883" Name="Door_TempleDoor_Open_Play"/>
+				<Event Id="2409105241" Name="Music_ArcadeMachine_Play"/>
+				<Event Id="746676127" Name="Music_ArcadeMachine_Stop"/>
 				<Event Id="2453392179" Name="Player_Footstep">
 					<MediaRefs>
 						<MediaRef Id="767388239"/>
@@ -166,5 +221,5 @@
 			</AcousticTextures>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{E51F6B50-66D6-932C-80DC-A0EE77A0A363}</FileHash>
+	<FileHash>{674053F0-0E80-568F-B2A6-58173CE068AE}</FileHash>
 </SoundBanksInfo>
