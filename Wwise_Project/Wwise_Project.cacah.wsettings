@@ -31,7 +31,7 @@
 				<Property Name="GenerateSoundBanks\ShowHierarchy" Type="bool" Value="True"/>
 				<Property Name="GenerateSoundBanks\x64_SelectedLanguages" Type="string" Value="BvDMKA=="/>
 				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value="s5Ppts6CFUG5NvaIEd/ovg=="/>
-				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="l2uTP2X2ok2AC305Uq0WLA=="/>
+				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="7q/TXoEGrkiJVV1zOLUjupdrkz9l9qJNgAt9OVKtFixAYqQZ1jl2SJLB2pUmZ6dv"/>
 				<Property Name="MeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 				<Property Name="MeterView\MeterMode1" Type="int32" Value="1"/>
 				<Property Name="MeterView\MeterMode1Viewpoint0" Type="int32" Value="1"/>

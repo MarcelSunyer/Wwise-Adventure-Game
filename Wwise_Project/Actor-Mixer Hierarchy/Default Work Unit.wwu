@@ -351,6 +351,31 @@
 						<ActiveSource Name="BAS_Lava" ID="{1D3594BA-D63A-4A23-B7DA-A22F96F5EB88}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="BAS_Torch" ID="{AF00CF77-C6C3-4D93-9994-00A2D3F7C0E5}" ShortID="140342413">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{67E07429-912F-4826-B1FE-DD029D4311E0}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AA8389C2-6D1E-42DC-A390-6064824D19D7}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="BAS_Torch" ID="{0E2B6E5F-2480-48CA-BBF3-FE2B8AB0F4BB}">
+							<Language>SFX</Language>
+							<AudioFile>BAS_Torch.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="489616698"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="BAS_Torch" ID="{0E2B6E5F-2480-48CA-BBF3-FE2B8AB0F4BB}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

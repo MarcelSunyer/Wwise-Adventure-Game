@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="133642231" Type="User" Language="SFX" Hash="{68905AD2-EB0D-D5D3-D1DB-3F9D20D50B93}">
+		<SoundBank Id="133642231" Type="User" Language="SFX" Hash="{AFA47D7D-FB5F-9A72-0F31-755F2C10E55A}">
 			<ShortName>General</ShortName>
 			<Path>General.bnk</Path>
 			<Media>
@@ -69,6 +69,10 @@
 					<ShortName>BAS_Destroy_Rock_02.wav</ShortName>
 					<CachePath>SFX/BAS_Destroy_Rock_02_10C4C929.wem</CachePath>
 				</File>
+				<File Id="489616698" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BAS_Torch.wav</ShortName>
+					<CachePath>SFX/BAS_Torch_D79FB2B7.wem</CachePath>
+				</File>
 				<File Id="560413122" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>BAS_WaterDrops_01.wav</ShortName>
 					<CachePath>SFX/BAS_WaterDrops_01_10C4C929.wem</CachePath>
@@ -123,8 +127,16 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="3664581270" Name="Ambient_Campfire_Play"/>
-				<Event Id="100151336" Name="Ambient_Campfire_Stop"/>
+				<Event Id="3664581270" Name="Ambient_Campfire_Play">
+					<MediaRefs>
+						<MediaRef Id="489616698"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="100151336" Name="Ambient_Campfire_Stop">
+					<MediaRefs>
+						<MediaRef Id="489616698"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="2355650095" Name="Ambient_Crystal_Hum"/>
 				<Event Id="4275106484" Name="Ambient_Lava">
 					<MediaRefs>
@@ -548,5 +560,5 @@
 			<Path>Destruction.bnk</Path>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{8C93CAE5-3534-493F-83C2-248230EF0821}</FileHash>
+	<FileHash>{C7E7A870-E4FA-0521-4FDC-61584D7D0A76}</FileHash>
 </SoundBanksInfo>

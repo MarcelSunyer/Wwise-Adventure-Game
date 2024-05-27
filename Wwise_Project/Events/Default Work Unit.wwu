@@ -5,8 +5,31 @@
 			<ChildrenList>
 				<Folder Name="3D Emitters" ID="{9B16EC92-34B7-4686-8157-31AEA3D68959}" ShortID="461073054">
 					<ChildrenList>
-						<Event Name="Ambient_Campfire_Play" ID="{8B9A540A-A72B-4323-B9BD-C27E43442FDB}"/>
-						<Event Name="Ambient_Campfire_Stop" ID="{84BF40F3-C2BB-4A0F-B995-BB7C6B459A58}"/>
+						<Event Name="Ambient_Campfire_Play" ID="{8B9A540A-A72B-4323-B9BD-C27E43442FDB}">
+							<ChildrenList>
+								<Action Name="" ID="{B2933B10-C758-4EFD-91F6-D0F6DA9BF63E}" ShortID="153442638">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BAS_Torch" ID="{AF00CF77-C6C3-4D93-9994-00A2D3F7C0E5}" WorkUnitID="{42F9D81D-BF05-4E47-8D34-FF3871EB7B48}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Ambient_Campfire_Stop" ID="{84BF40F3-C2BB-4A0F-B995-BB7C6B459A58}">
+							<ChildrenList>
+								<Action Name="" ID="{29EC61AF-4882-4187-8AC2-201B1B5D6381}" ShortID="966431176">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BAS_Torch" ID="{AF00CF77-C6C3-4D93-9994-00A2D3F7C0E5}" WorkUnitID="{42F9D81D-BF05-4E47-8D34-FF3871EB7B48}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 						<Event Name="Ambient_Crystal_Hum" ID="{B297ED78-B79C-4E3B-A666-F2AA510354F1}"/>
 						<Event Name="Ambient_Lava" ID="{3094E7F1-9BA7-4982-AE3C-3E0513AB7D5D}">
 							<ChildrenList>
