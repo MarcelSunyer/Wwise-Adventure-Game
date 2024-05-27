@@ -237,6 +237,11 @@
 				<Sound Name="BAS_Lava" ID="{E86499B8-8EAE-4819-9D62-C8D32C65DB55}" ShortID="181417143">
 					<PropertyList>
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-6</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
