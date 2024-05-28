@@ -1,0 +1,20 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1882971781	Music_Credits			\Default Work Unit\Music_Credits	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	2106907484	Music_Regions			\Default Work Unit\Music_Regions	
+
+State	ID	Name	State Group			Notes
+	608898761	Dungeon	Music_Regions			
+	748895195	None	Music_Regions			
+	1421251628	Woodlands	Music_Regions			
+	1850388778	Desert	Music_Regions			
+	3132368115	WwizardHouse	Music_Regions			
+	3160623154	Silent	Music_Regions			
+	3424056949	Nowhere	Music_Regions			
+	3945572659	Village	Music_Regions			
+	4122393694	Cave	Music_Regions			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	736626325	Credits_120BPM_4_4_L8M_P0	C:\Users\cacah\OneDrive\Documentos\GitHub\Wwise-Adventure-Game\Wwise_Project\.cache\Windows\SFX\Credits_120BPM_4_4_L8M_P0_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music_Regions\Credits\Credits_120BPM_4_4_L8M_P0\Credits_120BPM_4_4_L8M_P0		3840160
+

@@ -5,7 +5,10 @@
 			<ChildrenList>
 				<SoundBank Name="General" ID="{3F936B97-F665-4DA2-800B-7D3952AD162C}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Music_Credits" ID="{9DE9AD2A-8B6C-4259-BA1E-F0260912A262}" WorkUnitID="{8545330D-7696-464E-9C8B-CE284C0A83B1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Music_Region" ID="{4E9BDFF9-114D-458B-81FF-AD3F677B10EE}" WorkUnitID="{8545330D-7696-464E-9C8B-CE284C0A83B1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Default Work Unit" ID="{8545330D-7696-464E-9C8B-CE284C0A83B1}" WorkUnitID="{8545330D-7696-464E-9C8B-CE284C0A83B1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Music_TitleScreen" ID="{5EB0FA60-BF3E-4AE1-884D-C52C1075B6E2}" WorkUnitID="{8545330D-7696-464E-9C8B-CE284C0A83B1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Default Work Unit" ID="{42F9D81D-BF05-4E47-8D34-FF3871EB7B48}" WorkUnitID="{42F9D81D-BF05-4E47-8D34-FF3871EB7B48}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
@@ -25,6 +28,7 @@
 						<ObjectRef Name="UI_Menu_Select" ID="{0E3B369C-6961-4A2D-BB3A-8585D18B68B5}" WorkUnitID="{8545330D-7696-464E-9C8B-CE284C0A83B1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="UI_QuestRoll_Close" ID="{6EFA9B75-4048-4ADA-8177-E8830FD95538}" WorkUnitID="{8545330D-7696-464E-9C8B-CE284C0A83B1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="UI_Menu_Pause" ID="{984A1E6C-F413-4B60-AF52-3FE6B0FE9B52}" WorkUnitID="{8545330D-7696-464E-9C8B-CE284C0A83B1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Default Work Unit" ID="{BBDBA185-934A-4BF4-B212-48918DBC59AF}" WorkUnitID="{BBDBA185-934A-4BF4-B212-48918DBC59AF}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="UI_Button_Down" ID="{DA2A93BB-0126-4CAD-A615-A284BA505654}" WorkUnitID="{8545330D-7696-464E-9C8B-CE284C0A83B1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="UI_QuestRoll_Open" ID="{0DDCCCFE-56B0-4CFE-ACE8-DDA1F3BAC947}" WorkUnitID="{8545330D-7696-464E-9C8B-CE284C0A83B1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="UI_Menu_Teleport" ID="{8816B0C8-D25B-4DD1-A38B-75A50CEC4AC8}" WorkUnitID="{8545330D-7696-464E-9C8B-CE284C0A83B1}" Origin="Manual" Filter="7"/>
@@ -35,7 +39,9 @@
 					<GameSyncExclusionList/>
 				</SoundBank>
 				<SoundBank Name="Destruction" ID="{5ED3AFEE-0681-48AE-8955-5D7338B523BA}">
-					<ObjectInclusionList/>
+					<ObjectInclusionList>
+						<ObjectRef Name="Music_Credits" ID="{9DE9AD2A-8B6C-4259-BA1E-F0260912A262}" WorkUnitID="{8545330D-7696-464E-9C8B-CE284C0A83B1}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>

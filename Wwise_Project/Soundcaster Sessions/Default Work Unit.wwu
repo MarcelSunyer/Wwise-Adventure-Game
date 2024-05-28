@@ -1,6 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{08E832A7-5C20-4D82-8EE4-09624FDC4406}" SchemaVersion="110">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{08E832A7-5C20-4D82-8EE4-09624FDC4406}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{08E832A7-5C20-4D82-8EE4-09624FDC4406}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="New Soundcaster Session" ID="{579FF986-6ACA-4333-921B-3F4F1AD000EB}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Music_Regions" ID="{AF8AB5FE-D436-4A8D-9124-5701F71ED92F}" WorkUnitID="{BBDBA185-934A-4BF4-B212-48918DBC59AF}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="MenuSlider_Music_Volume" ID="{6959377E-B5C4-4A0E-85AA-51E983234DBF}"/>
+							<Value>100</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="Cave" ID="{E10B739D-AF12-4322-A92E-F918C4D2A87E}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>
