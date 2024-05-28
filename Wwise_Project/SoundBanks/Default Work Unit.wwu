@@ -9,6 +9,7 @@
 						<ObjectRef Name="Music_Region" ID="{4E9BDFF9-114D-458B-81FF-AD3F677B10EE}" WorkUnitID="{8545330D-7696-464E-9C8B-CE284C0A83B1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Default Work Unit" ID="{8545330D-7696-464E-9C8B-CE284C0A83B1}" WorkUnitID="{8545330D-7696-464E-9C8B-CE284C0A83B1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Music_TitleScreen" ID="{5EB0FA60-BF3E-4AE1-884D-C52C1075B6E2}" WorkUnitID="{8545330D-7696-464E-9C8B-CE284C0A83B1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player_Footstep" ID="{7C5DADF3-7105-4C11-8E67-1460D22B6F3C}" WorkUnitID="{8545330D-7696-464E-9C8B-CE284C0A83B1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Default Work Unit" ID="{42F9D81D-BF05-4E47-8D34-FF3871EB7B48}" WorkUnitID="{42F9D81D-BF05-4E47-8D34-FF3871EB7B48}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
