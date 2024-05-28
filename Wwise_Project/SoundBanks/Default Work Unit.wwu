@@ -6,6 +6,8 @@
 				<SoundBank Name="General" ID="{3F936B97-F665-4DA2-800B-7D3952AD162C}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Music_Credits" ID="{9DE9AD2A-8B6C-4259-BA1E-F0260912A262}" WorkUnitID="{8545330D-7696-464E-9C8B-CE284C0A83B1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player_Weapon_Type" ID="{6B6B79FF-81C6-43BB-95AB-39F6F358C1DD}" WorkUnitID="{42F9D81D-BF05-4E47-8D34-FF3871EB7B48}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player_WeaponImpact" ID="{5661FF91-0E9D-447F-851C-D0C26C146522}" WorkUnitID="{8545330D-7696-464E-9C8B-CE284C0A83B1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Music_Region" ID="{4E9BDFF9-114D-458B-81FF-AD3F677B10EE}" WorkUnitID="{8545330D-7696-464E-9C8B-CE284C0A83B1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Default Work Unit" ID="{8545330D-7696-464E-9C8B-CE284C0A83B1}" WorkUnitID="{8545330D-7696-464E-9C8B-CE284C0A83B1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Music_TitleScreen" ID="{5EB0FA60-BF3E-4AE1-884D-C52C1075B6E2}" WorkUnitID="{8545330D-7696-464E-9C8B-CE284C0A83B1}" Origin="Manual" Filter="7"/>

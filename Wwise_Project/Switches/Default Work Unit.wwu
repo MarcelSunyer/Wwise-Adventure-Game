@@ -13,6 +13,17 @@
 						<Switch Name="Water" ID="{6E2487BC-736F-413E-9799-548C0F03C959}"/>
 						<Switch Name="Wood" ID="{512F0738-049F-478F-A3D6-A7C1FC80B511}"/>
 						<Switch Name="Rubble" ID="{0F14FDBB-1C6C-4A46-9416-A19FAA5ED7E1}"/>
+						<Switch Name="Barrel" ID="{91A593A5-976D-4A56-A806-01B62931198B}"/>
+						<Switch Name="Crate" ID="{5A217F04-8373-4E4B-B8E0-43FE3A7ADE2F}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="Player_Weapon_Type" ID="{F42896E0-1578-4A2A-BDE9-2728E875E779}">
+					<ChildrenList>
+						<Switch Name="Axe" ID="{F9334B6D-4784-4149-A5F2-B40E51040AF0}"/>
+						<Switch Name="Dagger" ID="{0A3A83E7-6193-434C-B5C9-A6081B0D3E4C}"/>
+						<Switch Name="Hammer" ID="{7DE0B4BF-D0EA-42D5-9255-2E7603B430C8}"/>
+						<Switch Name="Sword" ID="{CB68FBDE-680C-48EC-9FD3-1D87DBFF6D32}"/>
+						<Switch Name="PickAxe" ID="{E7D09B59-E813-4F80-B31B-2EA28B8A05AB}"/>
 					</ChildrenList>
 				</SwitchGroup>
 			</ChildrenList>
