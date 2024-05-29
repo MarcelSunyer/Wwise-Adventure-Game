@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="133642231" Type="User" Language="SFX" Hash="{1EEFEE95-58D8-3510-4AED-B916779F4FB0}">
+		<SoundBank Id="133642231" Type="User" Language="SFX" Hash="{856D837C-AA95-16CE-32F3-16E37A87C92D}">
 			<ShortName>General</ShortName>
 			<Path>General.bnk</Path>
 			<Media>
@@ -473,7 +473,16 @@
 						<MediaRef Id="489616698"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2644063196" Name="Ambient_WaterDrop"/>
+				<Event Id="2644063196" Name="Ambient_WaterDrop">
+					<MediaRefs>
+						<MediaRef Id="114168133"/>
+						<MediaRef Id="378372934"/>
+						<MediaRef Id="446773669"/>
+						<MediaRef Id="560413122"/>
+						<MediaRef Id="816327592"/>
+						<MediaRef Id="924086485"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="1934835592" Name="Ambient_Waterfall">
 					<MediaRefs>
 						<MediaRef Id="513743245"/>
@@ -1294,7 +1303,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="1551306167" Type="User" Language="SFX" Hash="{3CC8E930-5CAE-B6E3-8383-E24D4DB8AA2D}">
+		<SoundBank Id="1551306167" Type="User" Language="SFX" Hash="{DAA26518-268A-7494-D25F-5D7BE4AB5D47}">
 			<ShortName>UI</ShortName>
 			<Path>UI.bnk</Path>
 			<Media>
@@ -1526,7 +1535,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="2446376615" Type="User" Language="SFX" Hash="{101930EF-95FD-772E-7314-31380B7CFEDA}">
+		<SoundBank Id="2446376615" Type="User" Language="SFX" Hash="{3F579420-BE79-F1CC-ADC4-9FE701E8CF98}">
 			<ShortName>Destruction</ShortName>
 			<Path>Destruction.bnk</Path>
 			<Media>
@@ -1544,5 +1553,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{BFBDA901-7AF9-AC69-DC0D-E5B185CA97F8}</FileHash>
+	<FileHash>{3EEBC560-85A1-EC99-7C9B-12FEE48AEC44}</FileHash>
 </SoundBanksInfo>

@@ -101,7 +101,7 @@
 								<Action Name="" ID="{2A718AEC-89E7-4641-A33F-0574AAE51346}" ShortID="558069107">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Ambient_WaterDrop" ID="{E7B7E012-F27B-4981-9812-5114335A1097}" WorkUnitID="{42F9D81D-BF05-4E47-8D34-FF3871EB7B48}"/>
+											<ObjectRef Name="Ambient_WaterDrop" ID="{66168918-D482-4ADE-B2D7-85FE243FF3EC}" WorkUnitID="{42F9D81D-BF05-4E47-8D34-FF3871EB7B48}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
